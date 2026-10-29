@@ -79,7 +79,8 @@ function getShortestPath(word) {
 
 // Display a word, highlighting the letter changed
 function createWordTile(word, nextWord = null) {
-    const tile = document.createElement("span");
+    const tile = document.createElement("button");
+    tile.type = "button";
     tile.className = "word-tile";
 
     if (word === START_WORD) {
@@ -91,11 +92,18 @@ function createWordTile(word, nextWord = null) {
         letter.textContent = word[i].toUpperCase();
 
         if (nextWord && word[i] !== nextWord[i]) {
-            letter.className = "changed-letter";
+            letter.classList.add("changed-letter");
+        } else if (word[i] === START_WORD[i]) {
+            letter.classList.add("matching-letter");
         }
 
         tile.appendChild(letter);
     }
+
+    tile.addEventListener("click", () => {
+        searchInput.value = word.toUpperCase();
+        updateSearch();
+    });
 
     return tile;
 }
@@ -128,17 +136,75 @@ function displayNeighbors(word) {
 
     const neighbors = getNeighbors(word);
 
-    for (const neighbor of neighbors) {
-        const button = document.createElement("button");
-        button.className = "neighbor-tile";
-        button.textContent = neighbor.toUpperCase();
+    for (let position = 0; position < 4; position++) {
+        const group = document.createElement("div");
+        group.className = "neighbor-group";
 
-        button.addEventListener("click", () => {
-            searchInput.value = neighbor.toUpperCase();
-            updateSearch();
-        });
+        const heading = document.createElement("div");
+        heading.className = "neighbor-group-heading";
+        heading.textContent = `Letter ${position + 1}`;
 
-        wordNeighborsElement.appendChild(button);
+        const wordLabel = document.createElement("div");
+        wordLabel.className = "neighbor-group-word";
+
+        for (let i = 0; i < 4; i++) {
+            const letter = document.createElement("span");
+            letter.textContent = word[i].toUpperCase();
+
+            if (i === position) {
+                letter.classList.add("changed-letter");
+            } else if (word[i] === START_WORD[i]) {
+                letter.classList.add("matching-letter");
+            }
+
+            wordLabel.appendChild(letter);
+        }
+
+        group.appendChild(heading);
+        group.appendChild(wordLabel);
+
+        const groupNeighbors = neighbors.filter(
+            neighbor => neighbor[position] !== word[position]
+        );
+
+        for (const neighbor of groupNeighbors) {
+            const button = document.createElement("button");
+            button.type = "button";
+            button.className = "neighbor-tile";
+
+            if (neighbor === START_WORD) {
+                button.classList.add("target");
+            }
+
+            for (let i = 0; i < 4; i++) {
+                const letter = document.createElement("span");
+                letter.textContent = neighbor[i].toUpperCase();
+
+                if (i === position) {
+                    letter.classList.add("changed-letter");
+                } else if (neighbor[i] === START_WORD[i]) {
+                    letter.classList.add("matching-letter");
+                }
+
+                button.appendChild(letter);
+            }
+
+            button.addEventListener("click", () => {
+                searchInput.value = neighbor.toUpperCase();
+                updateSearch();
+            });
+
+            group.appendChild(button);
+        }
+
+        if (groupNeighbors.length === 0) {
+            const empty = document.createElement("span");
+            empty.className = "neighbor-empty";
+            empty.textContent = "No neighbors";
+            group.appendChild(empty);
+        }
+
+        wordNeighborsElement.appendChild(group);
     }
 
     neighborsSection.hidden = false;
