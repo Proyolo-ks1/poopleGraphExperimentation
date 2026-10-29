@@ -1,0 +1,238 @@
+
+const START_WORD = "poop";
+
+const dictionarySelect = document.getElementById("dictionary-select");
+const searchInput = document.getElementById("word-search");
+const resultElement = document.getElementById("result");
+
+const totalWordsElement = document.getElementById("total-words");
+const reachableWordsElement = document.getElementById("reachable-words");
+const reachabilityElement = document.getElementById("reachability-percent");
+
+const pathSection = document.getElementById("path-section");
+const wordPathElement = document.getElementById("word-path");
+
+const neighborsSection = document.getElementById("neighbors-section");
+const wordNeighborsElement = document.getElementById("word-neighbors");
+
+let words = new Set();
+let distances = new Map();
+let previous = new Map();
+
+// Find valid words differing by exactly one letter
+function getNeighbors(word) {
+    const neighbors = [];
+
+    for (let i = 0; i < word.length; i++) {
+        for (let code = 97; code <= 122; code++) {
+            const letter = String.fromCharCode(code);
+
+            if (letter === word[i]) continue;
+
+            const candidate =
+                word.slice(0, i) + letter + word.slice(i + 1);
+
+            if (words.has(candidate)) {
+                neighbors.push(candidate);
+            }
+        }
+    }
+
+    return neighbors.sort();
+}
+
+// BFS starting at POOP
+function calculateDistances(startWord) {
+    distances = new Map([[startWord, 0]]);
+    previous = new Map();
+
+    const queue = [startWord];
+
+    for (let index = 0; index < queue.length; index++) {
+        const currentWord = queue[index];
+        const currentDistance = distances.get(currentWord);
+
+        for (const neighbor of getNeighbors(currentWord)) {
+            if (distances.has(neighbor)) continue;
+
+            distances.set(neighbor, currentDistance + 1);
+            previous.set(neighbor, currentWord);
+
+            queue.push(neighbor);
+        }
+    }
+}
+
+// Reconstruct the shortest path from a word to POOP
+function getShortestPath(word) {
+    if (!distances.has(word)) return [];
+
+    const path = [word];
+
+    while (word !== START_WORD) {
+        word = previous.get(word);
+        path.push(word);
+    }
+
+    return path;
+}
+
+// Display a word, highlighting the letter changed
+function createWordTile(word, nextWord = null) {
+    const tile = document.createElement("span");
+    tile.className = "word-tile";
+
+    if (word === START_WORD) {
+        tile.classList.add("target");
+    }
+
+    for (let i = 0; i < word.length; i++) {
+        const letter = document.createElement("span");
+        letter.textContent = word[i].toUpperCase();
+
+        if (nextWord && word[i] !== nextWord[i]) {
+            letter.className = "changed-letter";
+        }
+
+        tile.appendChild(letter);
+    }
+
+    return tile;
+}
+
+// Display the shortest path
+function displayPath(path) {
+    wordPathElement.replaceChildren();
+
+    for (let i = 0; i < path.length; i++) {
+        const word = path[i];
+        const nextWord = path[i + 1] ?? null;
+
+        wordPathElement.appendChild(createWordTile(word, nextWord));
+
+        if (nextWord) {
+            const arrow = document.createElement("span");
+            arrow.className = "path-arrow";
+            arrow.textContent = "→";
+
+            wordPathElement.appendChild(arrow);
+        }
+    }
+
+    pathSection.hidden = path.length === 0;
+}
+
+// Display neighboring words
+function displayNeighbors(word) {
+    wordNeighborsElement.replaceChildren();
+
+    const neighbors = getNeighbors(word);
+
+    for (const neighbor of neighbors) {
+        const button = document.createElement("button");
+        button.className = "neighbor-tile";
+        button.textContent = neighbor.toUpperCase();
+
+        button.addEventListener("click", () => {
+            searchInput.value = neighbor.toUpperCase();
+            updateSearch();
+        });
+
+        wordNeighborsElement.appendChild(button);
+    }
+
+    neighborsSection.hidden = false;
+}
+
+// Update search results
+function updateSearch() {
+    const word = searchInput.value.trim().toLowerCase();
+
+    pathSection.hidden = true;
+    neighborsSection.hidden = true;
+
+    if (!word) {
+        resultElement.textContent = "Enter a four-letter word.";
+        return;
+    }
+
+    if (!words.has(word)) {
+        resultElement.textContent =
+            `${word.toUpperCase()} is not in this dictionary.`;
+        return;
+    }
+
+    const neighbors = getNeighbors(word);
+    displayNeighbors(word);
+
+    if (!distances.has(word)) {
+        resultElement.textContent =
+            `${word.toUpperCase()} is valid but unreachable from POOP. ` +
+            `${neighbors.length} neighboring words.`;
+        return;
+    }
+
+    const distance = distances.get(word);
+
+    resultElement.textContent =
+        `${word.toUpperCase()} → POOP: ${distance} ` +
+        `${distance === 1 ? "move" : "moves"}. ` +
+        `${neighbors.length} neighboring words.`;
+
+    displayPath(getShortestPath(word));
+}
+
+// Load selected dictionary
+async function loadDictionary() {
+    const dictionary = dictionarySelect.value;
+
+    const url =
+        `./Assets/4-letter-word-lists/fourLetterWords-${dictionary}.json`;
+
+    resultElement.textContent = "Loading dictionary...";
+    pathSection.hidden = true;
+    neighborsSection.hidden = true;
+
+    try {
+        const response = await fetch(url);
+
+        if (!response.ok) {
+            throw new Error(`HTTP ${response.status}`);
+        }
+
+        words = new Set(await response.json());
+
+        if (words.has(START_WORD)) {
+            calculateDistances(START_WORD);
+        } else {
+            distances = new Map();
+            previous = new Map();
+        }
+
+        totalWordsElement.textContent = words.size.toLocaleString();
+        reachableWordsElement.textContent = distances.size.toLocaleString();
+
+        const percentage =
+            words.size > 0 ? distances.size / words.size * 100 : 0;
+
+        reachabilityElement.textContent = `${percentage.toFixed(2)}%`;
+
+        updateSearch();
+    } catch (error) {
+        words = new Set();
+        distances = new Map();
+        previous = new Map();
+
+        totalWordsElement.textContent = "—";
+        reachableWordsElement.textContent = "—";
+        reachabilityElement.textContent = "—";
+
+        resultElement.textContent =
+            `Failed to load dictionary: ${error.message}`;
+    }
+}
+
+dictionarySelect.addEventListener("change", loadDictionary);
+searchInput.addEventListener("input", updateSearch);
+
+loadDictionary();

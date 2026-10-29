@@ -1,0 +1,174 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #17191d;
+    color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 24px;
+}
+
+header {
+    margin-bottom: 32px;
+}
+
+h1 {
+    margin-bottom: 8px;
+    font-size: 32px;
+}
+
+header p {
+    color: #a5aab3;
+    margin-top: 0;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 21px;
+}
+
+h3 {
+    margin-top: 28px;
+    font-size: 16px;
+}
+
+.panel {
+    background: #22252b;
+    border: 1px solid #353941;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input,
+select {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background: #30343c;
+    color: inherit;
+    border: 1px solid #515763;
+    border-radius: 7px;
+    font: inherit;
+}
+
+input:focus,
+select:focus {
+    outline: 2px solid #38bda3;
+    outline-offset: 2px;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.stat {
+    background: #2b2f36;
+    border-radius: 8px;
+    padding: 18px;
+}
+
+.stat-label {
+    display: block;
+    color: #a5aab3;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.stat strong {
+    font-size: 24px;
+}
+
+#result {
+    margin-top: 18px;
+    color: #c8cdd5;
+}
+
+.word-path,
+.word-neighbors {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+
+.word-tile {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 12px;
+    border: 1px solid #515763;
+    border-radius: 7px;
+    background: #30343c;
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.word-tile.target {
+    background: #174c41;
+    border-color: #38bda3;
+}
+
+.changed-letter {
+    color: #38bda3;
+}
+
+.path-arrow {
+    color: #7d8592;
+    font-size: 20px;
+}
+
+.neighbor-tile {
+    padding: 8px 12px;
+    background: #30343c;
+    border: 1px solid #515763;
+    border-radius: 6px;
+    color: inherit;
+    font-family: monospace;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.neighbor-tile:hover {
+    background: #3c424c;
+    border-color: #38bda3;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+@media (max-width: 600px) {
+    main {
+        margin: 20px auto;
+        padding: 14px;
+    }
+
+    .panel {
+        padding: 16px;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+}

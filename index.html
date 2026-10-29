@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poople Graph Explorer</title>
+    <link rel="icon" type="image/png" href="./Assets/WebsiteIcon.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./script.js"></script>
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <h1>Poople Graph Explorer</h1>
+        <p>Explore connections between four-letter English words.</p>
+      </header>
+
+      <section class="panel">
+        <label for="dictionary-select">Dictionary</label>
+        <select id="dictionary-select">
+          <option value="poople-from-JS">Poople (official)</option>
+          <option value="dwyl-words_alpha">DWYL English Words</option>
+          <option value="words-EsdbSize35">ESDB 35</option>
+          <option value="words-EsdbSize50">ESDB 50</option>
+          <option value="words-EsdbSize60">ESDB 60</option>
+          <option value="words-EsdbSize70">ESDB 70</option>
+          <option value="words-EsdbSize80">ESDB 80</option>
+          <option value="words-EsdbSize85">ESDB 85</option>
+        </select>
+
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-label">Total words</span>
+            <strong id="total-words">—</strong>
+          </div>
+
+          <div class="stat">
+            <span class="stat-label">Reachable from POOP</span>
+            <strong id="reachable-words">—</strong>
+          </div>
+
+          <div class="stat">
+            <span class="stat-label">Reachability</span>
+            <strong id="reachability-percent">—</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Word Explorer</h2>
+
+        <label for="word-search">Search for a word</label>
+        <input id="word-search" type="search" placeholder="Enter a four-letter word..." maxlength="4" autocomplete="off" spellcheck="false" />
+
+        <p id="result" aria-live="polite">Loading dictionary...</p>
+
+        <div id="path-section" hidden>
+          <h3>Shortest path to POOP</h3>
+          <div id="word-path" class="word-path"></div>
+        </div>
+
+        <div id="neighbors-section" hidden>
+          <h3>Neighboring words</h3>
+          <div id="word-neighbors" class="word-neighbors"></div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
