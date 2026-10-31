@@ -1,3 +1,5 @@
+import { updateGraph } from "./scripts/graph.js";
+
 
 const START_WORD = "poop";
 
@@ -14,6 +16,19 @@ const wordPathElement = document.getElementById("word-path");
 
 const neighborsSection = document.getElementById("neighbors-section");
 const wordNeighborsElement = document.getElementById("word-neighbors");
+
+const graphCanvas = document.getElementById("graph-canvas");
+
+const copyLinkButton = document.getElementById("graph-copy-link");
+
+const urlParams = new URLSearchParams(window.location.search);
+
+function updateUrlParameter(key, value) {
+    const url = new URL(window.location.href);
+    url.searchParams.set(key, value);
+
+    window.history.replaceState(null, "", url);
+}
 
 let words = new Set();
 let distances = new Map();
@@ -212,19 +227,25 @@ function displayNeighbors(word) {
 
 // Update search results
 function updateSearch() {
+    const previousCanvasTop = graphCanvas.getBoundingClientRect().top;
     const word = searchInput.value.trim().toLowerCase();
+    updateUrlParameter("word", word);
+    localStorage.setItem("lastSearchedWord", word);
 
     pathSection.hidden = true;
     neighborsSection.hidden = true;
 
     if (!word) {
         resultElement.textContent = "Enter a four-letter word.";
+        updateGraph([], getNeighbors, selectWord);
         return;
     }
 
     if (!words.has(word)) {
         resultElement.textContent =
             `${word.toUpperCase()} is not in this dictionary.`;
+
+        updateGraph([], getNeighbors, selectWord);
         return;
     }
 
@@ -235,22 +256,34 @@ function updateSearch() {
         resultElement.textContent =
             `${word.toUpperCase()} is valid but unreachable from POOP. ` +
             `${neighbors.length} neighboring words.`;
+
+        updateGraph([], getNeighbors, selectWord);
         return;
     }
 
     const distance = distances.get(word);
+    const path = getShortestPath(word);
 
     resultElement.textContent =
         `${word.toUpperCase()} → POOP: ${distance} ` +
         `${distance === 1 ? "move" : "moves"}. ` +
         `${neighbors.length} neighboring words.`;
 
-    displayPath(getShortestPath(word));
+    displayPath(path);
+    updateGraph(path, getNeighbors, selectWord);
+
+    const newCanvasTop = graphCanvas.getBoundingClientRect().top;
+
+    window.scrollBy({
+        top: newCanvasTop - previousCanvasTop,
+        behavior: "instant"
+    });
 }
 
 // Load selected dictionary
 async function loadDictionary() {
     const dictionary = dictionarySelect.value;
+    updateUrlParameter("dictionary", dictionary);
 
     const url =
         `./Assets/4-letter-word-lists/fourLetterWords-${dictionary}.json`;
@@ -298,7 +331,45 @@ async function loadDictionary() {
     }
 }
 
+function selectWord(word) {
+    searchInput.value = word.toUpperCase();
+    updateSearch();
+}
+
+const initialDictionary = urlParams.get("dictionary");
+const initialWord = urlParams.get("word");
+
+if (
+    initialDictionary &&
+    [...dictionarySelect.options].some(
+        option => option.value === initialDictionary
+    )
+) {
+    dictionarySelect.value = initialDictionary;
+}
+
 dictionarySelect.addEventListener("change", loadDictionary);
 searchInput.addEventListener("input", updateSearch);
+
+copyLinkButton.addEventListener("click", async () => {
+    try {
+        await navigator.clipboard.writeText(window.location.href);
+
+        copyLinkButton.textContent = "Copied!";
+
+        setTimeout(() => {
+            copyLinkButton.textContent = "Copy link";
+        }, 1500);
+    } catch (error) {
+        console.error("Failed to copy link:", error);
+    }
+});
+
+// Restore the last searched word, prioritizing the URL
+const savedWord = localStorage.getItem("lastSearchedWord");
+
+searchInput.value = initialWord && /^[a-z]{4}$/i.test(initialWord)
+    ? initialWord.toLowerCase()
+    : savedWord || "";
 
 loadDictionary();

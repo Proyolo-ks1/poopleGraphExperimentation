@@ -65,6 +65,38 @@
           <div id="word-neighbors" class="word-neighbors"></div>
         </div>
       </section>
+
+      <section class="panel graph-panel">
+        <div class="graph-header">
+          <div>
+            <h2>Word Graph</h2>
+            <p class="graph-description">Shortest path to POOP and surrounding word connections.</p>
+          </div>
+
+          <div class="graph-actions">
+            <button id="graph-copy-link" type="button">Copy link</button>
+            <button id="graph-reset" type="button">Reset view</button>
+          </div>
+        </div>
+
+        <div class="graph-controls">
+          <label for="graph-depth">
+            Neighbor generations:
+            <output id="graph-depth-value">1</output>
+          </label>
+
+          <input id="graph-depth" type="range" min="0" max="10" value="1" step="1" />
+        </div>
+
+        <div class="graph-container">
+          <canvas id="graph-canvas"></canvas>
+        </div>
+
+        <div class="graph-footer">
+          <span id="graph-stats">Enter a word to visualize its graph.</span>
+          <span>Drag to pan · Scroll to zoom · Click to select</span>
+        </div>
+      </section>
     </main>
   </body>
 </html>
