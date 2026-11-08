@@ -18,8 +18,6 @@ function drawGenerationBands(ctx, width, height, offsetY, scale, maxDepth) {
             FIRST_GENERATION_Y +
             (generation - 1) * GENERATION_SPACING_Y;
 
-        const halfHeight = GENERATION_SPACING_Y / 2;
-
         for (const side of [-1, 1]) {
             const centerY = offsetY + side * centerDistance * scale;
             const bandHeight = GENERATION_SPACING_Y * scale;
