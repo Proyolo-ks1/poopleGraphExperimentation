@@ -25,8 +25,10 @@ export function setupGraphControls({
     let touchStart = null;
     let touchMoved = false;
     let multiTouchActive = false;
-    let previousTouchCenter = null;
-    let previousTouchDistance = 0;
+
+    let initialTouchCenter = null;
+    let initialTouchDistance = 0;
+    let initialCamera = null;
 
     function getPointerPosition(event) {
         const rect = canvas.getBoundingClientRect();
@@ -153,12 +155,15 @@ export function setupGraphControls({
             touchStart = null;
             multiTouchActive = true;
 
-            previousTouchCenter = getTouchCenter(event.touches);
-            previousTouchDistance = getTouchDistance(event.touches);
+            initialTouchCenter = getTouchCenter(event.touches);
+            initialTouchDistance = getTouchDistance(event.touches);
+            initialCamera = getCamera();
         }
     }, { passive: true });
 
+
     canvas.addEventListener("touchmove", event => {
+        // Single-finger movement: leave scrolling to the browser.
         if (event.touches.length === 1 && !multiTouchActive) {
             const point = getTouchPosition(event.touches[0]);
 
@@ -172,51 +177,51 @@ export function setupGraphControls({
                 touchMoved = true;
             }
 
-            // Allow native one-finger page scrolling.
             return;
         }
 
         if (event.touches.length < 2) return;
 
-        // We handle two-finger gestures ourselves.
+        // Prevent native scrolling and browser pinch zoom.
         if (event.cancelable) {
             event.preventDefault();
         }
 
-        multiTouchActive = true;
+        if (!initialCamera || initialTouchDistance <= 0) return;
 
         const center = getTouchCenter(event.touches);
         const distance = getTouchDistance(event.touches);
 
-        if (previousTouchCenter && previousTouchDistance > 0) {
-            const camera = getCamera();
+        // Calculate zoom relative to the initial gesture state.
+        const factor = distance / initialTouchDistance;
 
-            // Zoom around the midpoint between the fingers.
-            const graphX = (center.x - camera.offsetX) / camera.scale;
-            const graphY = (center.y - camera.offsetY) / camera.scale;
+        const scale = Math.max(
+            MIN_ZOOM,
+            Math.min(MAX_ZOOM, initialCamera.scale * factor)
+        );
 
-            const factor = distance / previousTouchDistance;
+        // Graph coordinate originally underneath the fingers' midpoint.
+        const graphX =
+            (initialTouchCenter.x - initialCamera.offsetX) /
+            initialCamera.scale;
 
-            const scale = Math.max(
-                MIN_ZOOM,
-                Math.min(MAX_ZOOM, camera.scale * factor)
-            );
+        const graphY =
+            (initialTouchCenter.y - initialCamera.offsetY) /
+            initialCamera.scale;
 
-            setCamera({
-                scale,
-                offsetX: center.x - graphX * scale,
-                offsetY: center.y - graphY * scale
-            });
+        // Keep that graph coordinate underneath the current midpoint.
+        setCamera({
+            scale,
+            offsetX: center.x - graphX * scale,
+            offsetY: center.y - graphY * scale
+        });
 
-            renderGraph();
-        }
-
-        previousTouchCenter = center;
-        previousTouchDistance = distance;
+        renderGraph();
     }, { passive: false });
 
+
     canvas.addEventListener("touchend", event => {
-        // Only a single-finger tap can select a node.
+        // Only a genuine single-finger tap can select a node.
         if (
             !multiTouchActive &&
             !touchMoved &&
@@ -226,9 +231,11 @@ export function setupGraphControls({
             selectNodeAt(getTouchPosition(event.changedTouches[0]));
         }
 
+        // A two-finger gesture has ended or lost one finger.
         if (event.touches.length < 2) {
-            previousTouchCenter = null;
-            previousTouchDistance = 0;
+            initialTouchCenter = null;
+            initialTouchDistance = 0;
+            initialCamera = null;
         }
 
         if (event.touches.length === 0) {
@@ -238,12 +245,15 @@ export function setupGraphControls({
         }
     }, { passive: true });
 
+
     canvas.addEventListener("touchcancel", () => {
         touchStart = null;
         touchMoved = false;
         multiTouchActive = false;
-        previousTouchCenter = null;
-        previousTouchDistance = 0;
+
+        initialTouchCenter = null;
+        initialTouchDistance = 0;
+        initialCamera = null;
     });
 
     // Zoom around the pointer
