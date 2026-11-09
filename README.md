@@ -4,6 +4,14 @@ An interactive word-graph explorer inspired by [Poople](https://poople.io/).
 
 Explore connections between four-letter English words and find the shortest path to **POOP** by changing one letter at a time.
 
+## Explore the Website
+
+[![Poople Graph Explorer Preview](Assets/images/PoopleGraphExplorerPreview.png)](https://proyolo-ks1.github.io/poopleGraphExperimentation/)
+
+**[Open Poople Graph Explorer](https://proyolo-ks1.github.io/poopleGraphExperimentation/)**
+
+No installation required. Explore directly in your browser.
+
 ## Features
 
 - Search for words and explore their neighbors.
@@ -17,7 +25,7 @@ Uses word lists from [Poople](https://poople.io/), [DWYL English Words](https://
 
 ## Run Locally
 
-Open `index.html` using a local HTTP server, such as VS Code Live Server.
+To run the project locally, open `index.html` using a local HTTP server, such as VS Code Live Server.
 
 ## License
 
