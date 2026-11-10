@@ -13,21 +13,30 @@
     <main>
       <header>
         <h1>Poople Graph Explorer</h1>
-        <p>Explore connections between four-letter English words.</p>
+        <div class="header-subtitle">
+          <p>Explore connections between four-letter English words.</p>
+          <p class="header-link">
+            Also interesting:
+            <a href="./pages/statistics.html">Dictionary Statistics</a>
+          </p>
+        </div>
       </header>
 
       <section class="panel">
-        <label for="dictionary-select">Dictionary</label>
-        <select id="dictionary-select">
-          <option value="poople-from-JS">Poople (official)</option>
-          <option value="dwyl-words_alpha">DWYL English Words</option>
-          <option value="words-EsdbSize35">ESDB 35</option>
-          <option value="words-EsdbSize50">ESDB 50</option>
-          <option value="words-EsdbSize60">ESDB 60</option>
-          <option value="words-EsdbSize70">ESDB 70</option>
-          <option value="words-EsdbSize80">ESDB 80</option>
-          <option value="words-EsdbSize85">ESDB 85</option>
-        </select>
+        <h2>Dictionary</h2>
+        <div class="inline-control">
+          <label for="dictionary-select">Dictionary</label>
+          <select id="dictionary-select">
+            <option value="poople-from-JS">Poople (official)</option>
+            <option value="dwyl-words_alpha">DWYL English Words</option>
+            <option value="words-EsdbSize35">ESDB 35</option>
+            <option value="words-EsdbSize50">ESDB 50</option>
+            <option value="words-EsdbSize60">ESDB 60</option>
+            <option value="words-EsdbSize70">ESDB 70</option>
+            <option value="words-EsdbSize80">ESDB 80</option>
+            <option value="words-EsdbSize85">ESDB 85</option>
+          </select>
+        </div>
 
         <div class="stats-grid">
           <div class="stat">
@@ -50,27 +59,30 @@
       <section class="panel">
         <h2>Word Explorer</h2>
 
-        <label for="word-search">Search for a word</label>
-        <input id="word-search" type="search" placeholder="Enter a four-letter word..." maxlength="4" autocomplete="off" spellcheck="false" />
+        <div class="inline-control">
+          <label id="word-search-label" for="word-search">Search for a word</label>
+          <input id="word-search" type="search" placeholder="Enter a four-letter word..." maxlength="4" autocomplete="off" spellcheck="false" />
+        </div>
 
         <p id="result" aria-live="polite">Loading dictionary...</p>
 
         <div id="path-section" hidden>
-          <h3>Shortest path to POOP</h3>
+          <div class="path-heading-row">
+            <h3 id="path-heading"></h3>
+
+            <div id="path-selector" class="path-selector" hidden>
+              <label for="path-index">
+                <span id="path-index-label">Solution 1 of 1</span>
+              </label>
+              <input id="path-index" type="range" min="0" max="0" value="0" step="1" />
+            </div>
+          </div>
 
           <div id="word-path" class="word-path"></div>
-
-          <div id="path-selector" class="path-selector" hidden>
-            <label for="path-index">
-              <span id="path-index-label">Solution 1 of 1</span>
-            </label>
-
-            <input id="path-index" type="range" min="0" max="0" value="0" step="1" />
-          </div>
         </div>
 
         <div id="neighbors-section" hidden>
-          <h3>Neighboring words</h3>
+          <h3 id="neighbors-heading">Neighboring words</h3>
           <div id="word-neighbors" class="word-neighbors"></div>
         </div>
       </section>

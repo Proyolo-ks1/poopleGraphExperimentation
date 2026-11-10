@@ -1,0 +1,11330 @@
+[
+  {
+    "word": "abet",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "able",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 2
+  },
+  {
+    "word": "ably",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 2
+  },
+  {
+    "word": "aced",
+    "moves": 8,
+    "solutions": 12,
+    "neighbors": 7
+  },
+  {
+    "word": "aces",
+    "moves": 7,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "ache",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 2
+  },
+  {
+    "word": "acid",
+    "moves": 7,
+    "solutions": 2,
+    "neighbors": 4
+  },
+  {
+    "word": "acne",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 2
+  },
+  {
+    "word": "acre",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 2
+  },
+  {
+    "word": "acts",
+    "moves": 8,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "adds",
+    "moves": 7,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "aeon",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "afar",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "aged",
+    "moves": 8,
+    "solutions": 10,
+    "neighbors": 5
+  },
+  {
+    "word": "ages",
+    "moves": 7,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "ahoy",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "aide",
+    "moves": 7,
+    "solutions": 19,
+    "neighbors": 7
+  },
+  {
+    "word": "aids",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "ails",
+    "moves": 7,
+    "solutions": 4,
+    "neighbors": 4
+  },
+  {
+    "word": "aims",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 7
+  },
+  {
+    "word": "airs",
+    "moves": 7,
+    "solutions": 7,
+    "neighbors": 6
+  },
+  {
+    "word": "airy",
+    "moves": 7,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "ajar",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "akin",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "alas",
+    "moves": 8,
+    "solutions": 4,
+    "neighbors": 2
+  },
+  {
+    "word": "ales",
+    "moves": 7,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "ally",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "alms",
+    "moves": 7,
+    "solutions": 3,
+    "neighbors": 5
+  },
+  {
+    "word": "also",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "alto",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 2
+  },
+  {
+    "word": "amen",
+    "moves": 11,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "amid",
+    "moves": 7,
+    "solutions": 2,
+    "neighbors": 3
+  },
+  {
+    "word": "amok",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "amps",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "anal",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "anew",
+    "moves": 7,
+    "solutions": 2,
+    "neighbors": 1
+  },
+  {
+    "word": "anon",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "ants",
+    "moves": 9,
+    "solutions": 6,
+    "neighbors": 3
+  },
+  {
+    "word": "anus",
+    "moves": 8,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "aped",
+    "moves": 7,
+    "solutions": 9,
+    "neighbors": 7
+  },
+  {
+    "word": "apes",
+    "moves": 7,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "apex",
+    "moves": 8,
+    "solutions": 10,
+    "neighbors": 2
+  },
+  {
+    "word": "arch",
+    "moves": 9,
+    "solutions": 4,
+    "neighbors": 1
+  },
+  {
+    "word": "arcs",
+    "moves": 8,
+    "solutions": 4,
+    "neighbors": 5
+  },
+  {
+    "word": "area",
+    "moves": 8,
+    "solutions": 3,
+    "neighbors": 2
+  },
+  {
+    "word": "ares",
+    "moves": 7,
+    "solutions": 1,
+    "neighbors": 13
+  },
+  {
+    "word": "aria",
+    "moves": 7,
+    "solutions": 2,
+    "neighbors": 2
+  },
+  {
+    "word": "arid",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 5
+  },
+  {
+    "word": "arks",
+    "moves": 8,
+    "solutions": 5,
+    "neighbors": 6
+  },
+  {
+    "word": "arms",
+    "moves": 7,
+    "solutions": 3,
+    "neighbors": 7
+  },
+  {
+    "word": "army",
+    "moves": 8,
+    "solutions": 3,
+    "neighbors": 1
+  },
+  {
+    "word": "arse",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "arts",
+    "moves": 8,
+    "solutions": 4,
+    "neighbors": 6
+  },
+  {
+    "word": "asks",
+    "moves": 9,
+    "solutions": 5,
+    "neighbors": 1
+  },
+  {
+    "word": "atom",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "aunt",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "aura",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "auto",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "avid",
+    "moves": 7,
+    "solutions": 2,
+    "neighbors": 3
+  },
+  {
+    "word": "avow",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "away",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 2
+  },
+  {
+    "word": "awed",
+    "moves": 8,
+    "solutions": 10,
+    "neighbors": 6
+  },
+  {
+    "word": "awes",
+    "moves": 7,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "awry",
+    "moves": 7,
+    "solutions": 3,
+    "neighbors": 2
+  },
+  {
+    "word": "axed",
+    "moves": 8,
+    "solutions": 10,
+    "neighbors": 5
+  },
+  {
+    "word": "axes",
+    "moves": 7,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "axis",
+    "moves": 8,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "axle",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "ayes",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "babe",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 5
+  },
+  {
+    "word": "baby",
+    "moves": 7,
+    "solutions": 3,
+    "neighbors": 1
+  },
+  {
+    "word": "back",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 12
+  },
+  {
+    "word": "bags",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 16
+  },
+  {
+    "word": "bail",
+    "moves": 5,
+    "solutions": 8,
+    "neighbors": 14
+  },
+  {
+    "word": "bait",
+    "moves": 6,
+    "solutions": 8,
+    "neighbors": 3
+  },
+  {
+    "word": "bake",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 13
+  },
+  {
+    "word": "bald",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "bale",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 15
+  },
+  {
+    "word": "balk",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "ball",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 17
+  },
+  {
+    "word": "balm",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 6
+  },
+  {
+    "word": "band",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 14
+  },
+  {
+    "word": "bang",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "bani",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "bank",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 14
+  },
+  {
+    "word": "bans",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 17
+  },
+  {
+    "word": "barb",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 6
+  },
+  {
+    "word": "bard",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 14
+  },
+  {
+    "word": "bare",
+    "moves": 6,
+    "solutions": 13,
+    "neighbors": 17
+  },
+  {
+    "word": "bark",
+    "moves": 6,
+    "solutions": 8,
+    "neighbors": 14
+  },
+  {
+    "word": "barn",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 11
+  },
+  {
+    "word": "bars",
+    "moves": 6,
+    "solutions": 17,
+    "neighbors": 18
+  },
+  {
+    "word": "base",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 10
+  },
+  {
+    "word": "bash",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 14
+  },
+  {
+    "word": "bask",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 10
+  },
+  {
+    "word": "bass",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 12
+  },
+  {
+    "word": "bath",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "bats",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 16
+  },
+  {
+    "word": "baud",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 4
+  },
+  {
+    "word": "bawl",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 3
+  },
+  {
+    "word": "bays",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 18
+  },
+  {
+    "word": "bead",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "beak",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "beam",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "bean",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 11
+  },
+  {
+    "word": "bear",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 18
+  },
+  {
+    "word": "beat",
+    "moves": 5,
+    "solutions": 5,
+    "neighbors": 18
+  },
+  {
+    "word": "beds",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 8
+  },
+  {
+    "word": "beef",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 5
+  },
+  {
+    "word": "been",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 7
+  },
+  {
+    "word": "beer",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 11
+  },
+  {
+    "word": "bees",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 13
+  },
+  {
+    "word": "beet",
+    "moves": 6,
+    "solutions": 11,
+    "neighbors": 10
+  },
+  {
+    "word": "begs",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 9
+  },
+  {
+    "word": "bell",
+    "moves": 5,
+    "solutions": 5,
+    "neighbors": 12
+  },
+  {
+    "word": "belt",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 10
+  },
+  {
+    "word": "bend",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 11
+  },
+  {
+    "word": "bent",
+    "moves": 6,
+    "solutions": 11,
+    "neighbors": 14
+  },
+  {
+    "word": "best",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "beta",
+    "moves": 7,
+    "solutions": 7,
+    "neighbors": 2
+  },
+  {
+    "word": "bets",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 14
+  },
+  {
+    "word": "bias",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 6
+  },
+  {
+    "word": "bibs",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 7
+  },
+  {
+    "word": "bide",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 11
+  },
+  {
+    "word": "bids",
+    "moves": 6,
+    "solutions": 8,
+    "neighbors": 11
+  },
+  {
+    "word": "bike",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 9
+  },
+  {
+    "word": "bile",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 11
+  },
+  {
+    "word": "bill",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "bind",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 11
+  },
+  {
+    "word": "bins",
+    "moves": 6,
+    "solutions": 11,
+    "neighbors": 14
+  },
+  {
+    "word": "bird",
+    "moves": 7,
+    "solutions": 12,
+    "neighbors": 2
+  },
+  {
+    "word": "bite",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 10
+  },
+  {
+    "word": "bits",
+    "moves": 6,
+    "solutions": 9,
+    "neighbors": 15
+  },
+  {
+    "word": "blab",
+    "moves": 5,
+    "solutions": 5,
+    "neighbors": 2
+  },
+  {
+    "word": "bled",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "blew",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "blip",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 3
+  },
+  {
+    "word": "blob",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 6
+  },
+  {
+    "word": "bloc",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 4
+  },
+  {
+    "word": "blog",
+    "moves": 4,
+    "solutions": 4,
+    "neighbors": 7
+  },
+  {
+    "word": "blot",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "blow",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "blue",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "blur",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "boar",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "boas",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 10
+  },
+  {
+    "word": "boat",
+    "moves": 4,
+    "solutions": 4,
+    "neighbors": 10
+  },
+  {
+    "word": "bobs",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 14
+  },
+  {
+    "word": "bode",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "body",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "bogs",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 15
+  },
+  {
+    "word": "boil",
+    "moves": 4,
+    "solutions": 4,
+    "neighbors": 6
+  },
+  {
+    "word": "bold",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "bolt",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 9
+  },
+  {
+    "word": "bomb",
+    "moves": 7,
+    "solutions": 4,
+    "neighbors": 3
+  },
+  {
+    "word": "bond",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 8
+  },
+  {
+    "word": "bone",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 12
+  },
+  {
+    "word": "bony",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 4
+  },
+  {
+    "word": "book",
+    "moves": 3,
+    "solutions": 4,
+    "neighbors": 11
+  },
+  {
+    "word": "boom",
+    "moves": 3,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "boon",
+    "moves": 3,
+    "solutions": 2,
+    "neighbors": 11
+  },
+  {
+    "word": "boor",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "boos",
+    "moves": 3,
+    "solutions": 2,
+    "neighbors": 15
+  },
+  {
+    "word": "boot",
+    "moves": 3,
+    "solutions": 3,
+    "neighbors": 16
+  },
+  {
+    "word": "bore",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 13
+  },
+  {
+    "word": "born",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "boss",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 10
+  },
+  {
+    "word": "both",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "bout",
+    "moves": 4,
+    "solutions": 4,
+    "neighbors": 6
+  },
+  {
+    "word": "bowl",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "bows",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 16
+  },
+  {
+    "word": "boys",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 10
+  },
+  {
+    "word": "brag",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 6
+  },
+  {
+    "word": "bran",
+    "moves": 6,
+    "solutions": 13,
+    "neighbors": 5
+  },
+  {
+    "word": "bras",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 7
+  },
+  {
+    "word": "brat",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 6
+  },
+  {
+    "word": "bray",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "bred",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "brew",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "brim",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "brow",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "buck",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "buds",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "buff",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 6
+  },
+  {
+    "word": "bugs",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 13
+  },
+  {
+    "word": "bulb",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "bulk",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "bull",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "bump",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "bums",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "bung",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 8
+  },
+  {
+    "word": "bunk",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "buns",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 13
+  },
+  {
+    "word": "buoy",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "burn",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 6
+  },
+  {
+    "word": "burp",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "burr",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "bury",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "bush",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "bust",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "busy",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 4
+  },
+  {
+    "word": "butt",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "buys",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 7
+  },
+  {
+    "word": "buzz",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "byes",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "byte",
+    "moves": 7,
+    "solutions": 3,
+    "neighbors": 1
+  },
+  {
+    "word": "cabs",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 13
+  },
+  {
+    "word": "cafe",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 9
+  },
+  {
+    "word": "cage",
+    "moves": 6,
+    "solutions": 8,
+    "neighbors": 12
+  },
+  {
+    "word": "cake",
+    "moves": 6,
+    "solutions": 11,
+    "neighbors": 17
+  },
+  {
+    "word": "calf",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "calk",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "call",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 13
+  },
+  {
+    "word": "calm",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 5
+  },
+  {
+    "word": "came",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 17
+  },
+  {
+    "word": "camp",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "cane",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 17
+  },
+  {
+    "word": "cans",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "cant",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "cape",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 14
+  },
+  {
+    "word": "caps",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 16
+  },
+  {
+    "word": "card",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "care",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 21
+  },
+  {
+    "word": "carp",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "cars",
+    "moves": 5,
+    "solutions": 5,
+    "neighbors": 17
+  },
+  {
+    "word": "cart",
+    "moves": 6,
+    "solutions": 15,
+    "neighbors": 13
+  },
+  {
+    "word": "case",
+    "moves": 6,
+    "solutions": 10,
+    "neighbors": 14
+  },
+  {
+    "word": "cash",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 12
+  },
+  {
+    "word": "cask",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 7
+  },
+  {
+    "word": "cast",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 14
+  },
+  {
+    "word": "cats",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 15
+  },
+  {
+    "word": "cave",
+    "moves": 6,
+    "solutions": 12,
+    "neighbors": 15
+  },
+  {
+    "word": "caws",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "cede",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "cell",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 10
+  },
+  {
+    "word": "cent",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 10
+  },
+  {
+    "word": "chap",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "char",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "chat",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "chef",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "chew",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "chic",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "chin",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "chip",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "chop",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "chow",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "chug",
+    "moves": 9,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "chum",
+    "moves": 10,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "cite",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "city",
+    "moves": 7,
+    "solutions": 2,
+    "neighbors": 2
+  },
+  {
+    "word": "clad",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "clam",
+    "moves": 5,
+    "solutions": 11,
+    "neighbors": 7
+  },
+  {
+    "word": "clan",
+    "moves": 5,
+    "solutions": 8,
+    "neighbors": 6
+  },
+  {
+    "word": "clap",
+    "moves": 4,
+    "solutions": 5,
+    "neighbors": 10
+  },
+  {
+    "word": "claw",
+    "moves": 5,
+    "solutions": 10,
+    "neighbors": 6
+  },
+  {
+    "word": "clay",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "clef",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "clip",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 5
+  },
+  {
+    "word": "clod",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "clog",
+    "moves": 4,
+    "solutions": 4,
+    "neighbors": 5
+  },
+  {
+    "word": "clot",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "club",
+    "moves": 8,
+    "solutions": 6,
+    "neighbors": 1
+  },
+  {
+    "word": "clue",
+    "moves": 7,
+    "solutions": 6,
+    "neighbors": 4
+  },
+  {
+    "word": "coal",
+    "moves": 3,
+    "solutions": 2,
+    "neighbors": 6
+  },
+  {
+    "word": "coat",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "coax",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 3
+  },
+  {
+    "word": "cobs",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 16
+  },
+  {
+    "word": "cock",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "code",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "cods",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 13
+  },
+  {
+    "word": "cogs",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 13
+  },
+  {
+    "word": "coil",
+    "moves": 3,
+    "solutions": 2,
+    "neighbors": 7
+  },
+  {
+    "word": "coin",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 5
+  },
+  {
+    "word": "coke",
+    "moves": 5,
+    "solutions": 5,
+    "neighbors": 11
+  },
+  {
+    "word": "cold",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "colt",
+    "moves": 5,
+    "solutions": 11,
+    "neighbors": 8
+  },
+  {
+    "word": "coma",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 2
+  },
+  {
+    "word": "comb",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 5
+  },
+  {
+    "word": "come",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 13
+  },
+  {
+    "word": "cone",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 16
+  },
+  {
+    "word": "cons",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "cook",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "cool",
+    "moves": 2,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "coop",
+    "moves": 1,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "coos",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "cope",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 15
+  },
+  {
+    "word": "cops",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 17
+  },
+  {
+    "word": "copy",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "cord",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "core",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 20
+  },
+  {
+    "word": "cork",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "corn",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "cost",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 10
+  },
+  {
+    "word": "cosy",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 6
+  },
+  {
+    "word": "cots",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 15
+  },
+  {
+    "word": "coup",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "cove",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 12
+  },
+  {
+    "word": "cows",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 17
+  },
+  {
+    "word": "cozy",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "crab",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 6
+  },
+  {
+    "word": "crag",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 5
+  },
+  {
+    "word": "cram",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 6
+  },
+  {
+    "word": "crap",
+    "moves": 3,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "crew",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 5
+  },
+  {
+    "word": "crib",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 1
+  },
+  {
+    "word": "crop",
+    "moves": 2,
+    "solutions": 2,
+    "neighbors": 6
+  },
+  {
+    "word": "crow",
+    "moves": 3,
+    "solutions": 3,
+    "neighbors": 6
+  },
+  {
+    "word": "crux",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "cube",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "cubs",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "cued",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 4
+  },
+  {
+    "word": "cues",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 8
+  },
+  {
+    "word": "cuff",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 6
+  },
+  {
+    "word": "cull",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 13
+  },
+  {
+    "word": "cult",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "cups",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "curb",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 4
+  },
+  {
+    "word": "curd",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "cure",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "curl",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "curt",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 7
+  },
+  {
+    "word": "cute",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "cuts",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 13
+  },
+  {
+    "word": "cyst",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 2
+  },
+  {
+    "word": "czar",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "dabs",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "dads",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 10
+  },
+  {
+    "word": "daft",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "dais",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 4
+  },
+  {
+    "word": "dame",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 15
+  },
+  {
+    "word": "damn",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 5
+  },
+  {
+    "word": "damp",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 7
+  },
+  {
+    "word": "dams",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 12
+  },
+  {
+    "word": "dank",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "dare",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 14
+  },
+  {
+    "word": "dark",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 9
+  },
+  {
+    "word": "darn",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 9
+  },
+  {
+    "word": "dart",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 11
+  },
+  {
+    "word": "dash",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 10
+  },
+  {
+    "word": "data",
+    "moves": 7,
+    "solutions": 7,
+    "neighbors": 1
+  },
+  {
+    "word": "date",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 12
+  },
+  {
+    "word": "daub",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "dawn",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 8
+  },
+  {
+    "word": "days",
+    "moves": 6,
+    "solutions": 8,
+    "neighbors": 16
+  },
+  {
+    "word": "daze",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 9
+  },
+  {
+    "word": "dead",
+    "moves": 6,
+    "solutions": 11,
+    "neighbors": 9
+  },
+  {
+    "word": "deaf",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 5
+  },
+  {
+    "word": "deal",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 13
+  },
+  {
+    "word": "dean",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "dear",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 16
+  },
+  {
+    "word": "debt",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "deck",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 5
+  },
+  {
+    "word": "deed",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 14
+  },
+  {
+    "word": "deem",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "deep",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "deer",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "deft",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "defy",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "deli",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "dens",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "dent",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 13
+  },
+  {
+    "word": "deny",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "desk",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 3
+  },
+  {
+    "word": "dial",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 4
+  },
+  {
+    "word": "dice",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "died",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 7
+  },
+  {
+    "word": "dies",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 13
+  },
+  {
+    "word": "diet",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "digs",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "dike",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 12
+  },
+  {
+    "word": "dill",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 13
+  },
+  {
+    "word": "dime",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 11
+  },
+  {
+    "word": "dims",
+    "moves": 6,
+    "solutions": 9,
+    "neighbors": 8
+  },
+  {
+    "word": "dine",
+    "moves": 6,
+    "solutions": 8,
+    "neighbors": 16
+  },
+  {
+    "word": "dins",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "dips",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 12
+  },
+  {
+    "word": "dire",
+    "moves": 7,
+    "solutions": 62,
+    "neighbors": 13
+  },
+  {
+    "word": "dirt",
+    "moves": 7,
+    "solutions": 3,
+    "neighbors": 3
+  },
+  {
+    "word": "disc",
+    "moves": 8,
+    "solutions": 16,
+    "neighbors": 2
+  },
+  {
+    "word": "dish",
+    "moves": 7,
+    "solutions": 4,
+    "neighbors": 5
+  },
+  {
+    "word": "disk",
+    "moves": 7,
+    "solutions": 12,
+    "neighbors": 5
+  },
+  {
+    "word": "dive",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 10
+  },
+  {
+    "word": "dock",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 8
+  },
+  {
+    "word": "dodo",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "doer",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "does",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 13
+  },
+  {
+    "word": "dogs",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "dole",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 13
+  },
+  {
+    "word": "doll",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "dome",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 13
+  },
+  {
+    "word": "done",
+    "moves": 5,
+    "solutions": 5,
+    "neighbors": 18
+  },
+  {
+    "word": "dons",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "doom",
+    "moves": 3,
+    "solutions": 2,
+    "neighbors": 5
+  },
+  {
+    "word": "door",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "dope",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 14
+  },
+  {
+    "word": "dose",
+    "moves": 5,
+    "solutions": 7,
+    "neighbors": 13
+  },
+  {
+    "word": "dost",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 7
+  },
+  {
+    "word": "dote",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 14
+  },
+  {
+    "word": "doth",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "dots",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "dour",
+    "moves": 3,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "dove",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 13
+  },
+  {
+    "word": "down",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 4
+  },
+  {
+    "word": "doze",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "drab",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 4
+  },
+  {
+    "word": "drag",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 5
+  },
+  {
+    "word": "draw",
+    "moves": 6,
+    "solutions": 9,
+    "neighbors": 3
+  },
+  {
+    "word": "drew",
+    "moves": 5,
+    "solutions": 5,
+    "neighbors": 4
+  },
+  {
+    "word": "drip",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "drop",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "drug",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 2
+  },
+  {
+    "word": "drum",
+    "moves": 7,
+    "solutions": 2,
+    "neighbors": 1
+  },
+  {
+    "word": "drys",
+    "moves": 7,
+    "solutions": 8,
+    "neighbors": 1
+  },
+  {
+    "word": "dual",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 4
+  },
+  {
+    "word": "dubs",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "duck",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 11
+  },
+  {
+    "word": "duct",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 3
+  },
+  {
+    "word": "dude",
+    "moves": 7,
+    "solutions": 23,
+    "neighbors": 6
+  },
+  {
+    "word": "duds",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 6
+  },
+  {
+    "word": "duel",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 5
+  },
+  {
+    "word": "dues",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "duet",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 5
+  },
+  {
+    "word": "duff",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 6
+  },
+  {
+    "word": "duke",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "dull",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 14
+  },
+  {
+    "word": "duly",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 3
+  },
+  {
+    "word": "dumb",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "dump",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "dune",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 9
+  },
+  {
+    "word": "dung",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 7
+  },
+  {
+    "word": "dunk",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "dupe",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 4
+  },
+  {
+    "word": "dusk",
+    "moves": 6,
+    "solutions": 9,
+    "neighbors": 8
+  },
+  {
+    "word": "dust",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 11
+  },
+  {
+    "word": "duty",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 1
+  },
+  {
+    "word": "dyed",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 4
+  },
+  {
+    "word": "dyes",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "dyke",
+    "moves": 7,
+    "solutions": 4,
+    "neighbors": 2
+  },
+  {
+    "word": "each",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "earl",
+    "moves": 7,
+    "solutions": 9,
+    "neighbors": 2
+  },
+  {
+    "word": "earn",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 6
+  },
+  {
+    "word": "ears",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 12
+  },
+  {
+    "word": "ease",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 6
+  },
+  {
+    "word": "east",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "easy",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 2
+  },
+  {
+    "word": "eats",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "ebbs",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "echo",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "eddy",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "edge",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "edgy",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 2
+  },
+  {
+    "word": "edit",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 2
+  },
+  {
+    "word": "eels",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "eggs",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "egos",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "eked",
+    "moves": 8,
+    "solutions": 5,
+    "neighbors": 3
+  },
+  {
+    "word": "ekes",
+    "moves": 7,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "elks",
+    "moves": 9,
+    "solutions": 3,
+    "neighbors": 1
+  },
+  {
+    "word": "elms",
+    "moves": 8,
+    "solutions": 3,
+    "neighbors": 2
+  },
+  {
+    "word": "else",
+    "moves": 7,
+    "solutions": 2,
+    "neighbors": 1
+  },
+  {
+    "word": "emir",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "emit",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 4
+  },
+  {
+    "word": "ends",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "envy",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "eons",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "epic",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "eras",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 2
+  },
+  {
+    "word": "ergo",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "errs",
+    "moves": 7,
+    "solutions": 10,
+    "neighbors": 2
+  },
+  {
+    "word": "etch",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 2
+  },
+  {
+    "word": "even",
+    "moves": 8,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "ever",
+    "moves": 8,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "eves",
+    "moves": 7,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "evil",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "ewes",
+    "moves": 7,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "exam",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "exit",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 2
+  },
+  {
+    "word": "eyed",
+    "moves": 7,
+    "solutions": 4,
+    "neighbors": 3
+  },
+  {
+    "word": "eyes",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "face",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 11
+  },
+  {
+    "word": "fact",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 4
+  },
+  {
+    "word": "fade",
+    "moves": 7,
+    "solutions": 33,
+    "neighbors": 10
+  },
+  {
+    "word": "fads",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 9
+  },
+  {
+    "word": "fail",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 13
+  },
+  {
+    "word": "fair",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "fake",
+    "moves": 7,
+    "solutions": 55,
+    "neighbors": 14
+  },
+  {
+    "word": "fall",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "fame",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 14
+  },
+  {
+    "word": "fang",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "fans",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "fare",
+    "moves": 6,
+    "solutions": 12,
+    "neighbors": 16
+  },
+  {
+    "word": "farm",
+    "moves": 6,
+    "solutions": 8,
+    "neighbors": 5
+  },
+  {
+    "word": "fast",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "fate",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 15
+  },
+  {
+    "word": "fats",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "fawn",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 5
+  },
+  {
+    "word": "faze",
+    "moves": 7,
+    "solutions": 39,
+    "neighbors": 11
+  },
+  {
+    "word": "fear",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "feat",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "feds",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "feed",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "feel",
+    "moves": 6,
+    "solutions": 8,
+    "neighbors": 9
+  },
+  {
+    "word": "fees",
+    "moves": 6,
+    "solutions": 8,
+    "neighbors": 10
+  },
+  {
+    "word": "feet",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "fell",
+    "moves": 5,
+    "solutions": 5,
+    "neighbors": 13
+  },
+  {
+    "word": "felt",
+    "moves": 6,
+    "solutions": 12,
+    "neighbors": 7
+  },
+  {
+    "word": "fend",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 11
+  },
+  {
+    "word": "fern",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "fete",
+    "moves": 7,
+    "solutions": 3,
+    "neighbors": 2
+  },
+  {
+    "word": "feud",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 2
+  },
+  {
+    "word": "fibs",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 6
+  },
+  {
+    "word": "figs",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "file",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 11
+  },
+  {
+    "word": "fill",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 15
+  },
+  {
+    "word": "film",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "find",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 11
+  },
+  {
+    "word": "fine",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 13
+  },
+  {
+    "word": "fins",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 14
+  },
+  {
+    "word": "fire",
+    "moves": 6,
+    "solutions": 11,
+    "neighbors": 13
+  },
+  {
+    "word": "firm",
+    "moves": 6,
+    "solutions": 9,
+    "neighbors": 5
+  },
+  {
+    "word": "firs",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "fish",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "fist",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "fits",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 13
+  },
+  {
+    "word": "five",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 7
+  },
+  {
+    "word": "fizz",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "flag",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 6
+  },
+  {
+    "word": "flak",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "flap",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "flat",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "flaw",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 7
+  },
+  {
+    "word": "flea",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 5
+  },
+  {
+    "word": "fled",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 7
+  },
+  {
+    "word": "flee",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 7
+  },
+  {
+    "word": "flew",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "flex",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 5
+  },
+  {
+    "word": "flip",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "flit",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "flog",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "flop",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "flow",
+    "moves": 3,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "flue",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 5
+  },
+  {
+    "word": "flux",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 2
+  },
+  {
+    "word": "foal",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "foam",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 4
+  },
+  {
+    "word": "foes",
+    "moves": 5,
+    "solutions": 5,
+    "neighbors": 8
+  },
+  {
+    "word": "fogs",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "fogy",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "foil",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "fold",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 11
+  },
+  {
+    "word": "folk",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 3
+  },
+  {
+    "word": "fond",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "font",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 4
+  },
+  {
+    "word": "food",
+    "moves": 3,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "fool",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "foot",
+    "moves": 3,
+    "solutions": 3,
+    "neighbors": 11
+  },
+  {
+    "word": "ford",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 10
+  },
+  {
+    "word": "fore",
+    "moves": 5,
+    "solutions": 8,
+    "neighbors": 15
+  },
+  {
+    "word": "fork",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "form",
+    "moves": 5,
+    "solutions": 8,
+    "neighbors": 9
+  },
+  {
+    "word": "fort",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 8
+  },
+  {
+    "word": "foul",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "four",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "fowl",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "foxy",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "fray",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 4
+  },
+  {
+    "word": "free",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 3
+  },
+  {
+    "word": "fret",
+    "moves": 7,
+    "solutions": 4,
+    "neighbors": 2
+  },
+  {
+    "word": "frog",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 2
+  },
+  {
+    "word": "from",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "fuel",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "full",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "fume",
+    "moves": 7,
+    "solutions": 5,
+    "neighbors": 2
+  },
+  {
+    "word": "fund",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 3
+  },
+  {
+    "word": "furl",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "furs",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "fury",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 4
+  },
+  {
+    "word": "fuse",
+    "moves": 7,
+    "solutions": 20,
+    "neighbors": 4
+  },
+  {
+    "word": "fuss",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 4
+  },
+  {
+    "word": "fuzz",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 2
+  },
+  {
+    "word": "gabs",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 11
+  },
+  {
+    "word": "gags",
+    "moves": 6,
+    "solutions": 11,
+    "neighbors": 13
+  },
+  {
+    "word": "gain",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "gait",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 4
+  },
+  {
+    "word": "gala",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "gale",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 14
+  },
+  {
+    "word": "gall",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 13
+  },
+  {
+    "word": "gals",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "game",
+    "moves": 6,
+    "solutions": 8,
+    "neighbors": 12
+  },
+  {
+    "word": "gang",
+    "moves": 7,
+    "solutions": 13,
+    "neighbors": 8
+  },
+  {
+    "word": "gape",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 10
+  },
+  {
+    "word": "gaps",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "garb",
+    "moves": 7,
+    "solutions": 2,
+    "neighbors": 1
+  },
+  {
+    "word": "gash",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 12
+  },
+  {
+    "word": "gasp",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "gate",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 12
+  },
+  {
+    "word": "gave",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 12
+  },
+  {
+    "word": "gawk",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "gays",
+    "moves": 6,
+    "solutions": 9,
+    "neighbors": 16
+  },
+  {
+    "word": "gaze",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 10
+  },
+  {
+    "word": "gear",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "geed",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "gees",
+    "moves": 6,
+    "solutions": 9,
+    "neighbors": 9
+  },
+  {
+    "word": "gems",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 5
+  },
+  {
+    "word": "gene",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 2
+  },
+  {
+    "word": "gent",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 10
+  },
+  {
+    "word": "germ",
+    "moves": 8,
+    "solutions": 8,
+    "neighbors": 1
+  },
+  {
+    "word": "gets",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 11
+  },
+  {
+    "word": "gibe",
+    "moves": 8,
+    "solutions": 18,
+    "neighbors": 3
+  },
+  {
+    "word": "gift",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "gigs",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 8
+  },
+  {
+    "word": "gild",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 5
+  },
+  {
+    "word": "gill",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 15
+  },
+  {
+    "word": "gilt",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "gins",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 9
+  },
+  {
+    "word": "girl",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "gist",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "give",
+    "moves": 7,
+    "solutions": 18,
+    "neighbors": 6
+  },
+  {
+    "word": "glad",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 2
+  },
+  {
+    "word": "glee",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 3
+  },
+  {
+    "word": "glen",
+    "moves": 7,
+    "solutions": 2,
+    "neighbors": 1
+  },
+  {
+    "word": "glib",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "glow",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "glue",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 6
+  },
+  {
+    "word": "glum",
+    "moves": 6,
+    "solutions": 9,
+    "neighbors": 4
+  },
+  {
+    "word": "glut",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 4
+  },
+  {
+    "word": "gnat",
+    "moves": 6,
+    "solutions": 14,
+    "neighbors": 2
+  },
+  {
+    "word": "gnaw",
+    "moves": 7,
+    "solutions": 14,
+    "neighbors": 1
+  },
+  {
+    "word": "gnps",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "gnus",
+    "moves": 7,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "goad",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "goal",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 4
+  },
+  {
+    "word": "goat",
+    "moves": 5,
+    "solutions": 14,
+    "neighbors": 7
+  },
+  {
+    "word": "gobs",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "gods",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "goes",
+    "moves": 5,
+    "solutions": 6,
+    "neighbors": 9
+  },
+  {
+    "word": "gold",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 11
+  },
+  {
+    "word": "golf",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "gone",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 11
+  },
+  {
+    "word": "gong",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 4
+  },
+  {
+    "word": "good",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "goof",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "goon",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "gore",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 11
+  },
+  {
+    "word": "gory",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 1
+  },
+  {
+    "word": "gosh",
+    "moves": 7,
+    "solutions": 6,
+    "neighbors": 2
+  },
+  {
+    "word": "gout",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "gown",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "grab",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 5
+  },
+  {
+    "word": "gram",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "gray",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 7
+  },
+  {
+    "word": "grew",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "grey",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "grid",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 5
+  },
+  {
+    "word": "grim",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "grin",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 5
+  },
+  {
+    "word": "grip",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "grit",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 6
+  },
+  {
+    "word": "grow",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "grub",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 1
+  },
+  {
+    "word": "gulf",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 3
+  },
+  {
+    "word": "gull",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 13
+  },
+  {
+    "word": "gulp",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "gums",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 10
+  },
+  {
+    "word": "guns",
+    "moves": 6,
+    "solutions": 9,
+    "neighbors": 9
+  },
+  {
+    "word": "guru",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "gush",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "gust",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "guts",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "guys",
+    "moves": 6,
+    "solutions": 8,
+    "neighbors": 5
+  },
+  {
+    "word": "gybe",
+    "moves": 9,
+    "solutions": 18,
+    "neighbors": 1
+  },
+  {
+    "word": "gyms",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 2
+  },
+  {
+    "word": "hack",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "hags",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 13
+  },
+  {
+    "word": "hail",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 13
+  },
+  {
+    "word": "hair",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 5
+  },
+  {
+    "word": "hale",
+    "moves": 5,
+    "solutions": 5,
+    "neighbors": 15
+  },
+  {
+    "word": "half",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "hall",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 17
+  },
+  {
+    "word": "halo",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "halt",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "hams",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "hand",
+    "moves": 7,
+    "solutions": 20,
+    "neighbors": 7
+  },
+  {
+    "word": "hang",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "hard",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 12
+  },
+  {
+    "word": "hare",
+    "moves": 6,
+    "solutions": 11,
+    "neighbors": 18
+  },
+  {
+    "word": "hark",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "harm",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 7
+  },
+  {
+    "word": "harp",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 7
+  },
+  {
+    "word": "hart",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "hash",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "hast",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "hate",
+    "moves": 6,
+    "solutions": 8,
+    "neighbors": 13
+  },
+  {
+    "word": "hath",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 7
+  },
+  {
+    "word": "hats",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 15
+  },
+  {
+    "word": "haul",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "have",
+    "moves": 6,
+    "solutions": 11,
+    "neighbors": 12
+  },
+  {
+    "word": "hawk",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "hays",
+    "moves": 6,
+    "solutions": 8,
+    "neighbors": 14
+  },
+  {
+    "word": "haze",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 10
+  },
+  {
+    "word": "hazy",
+    "moves": 7,
+    "solutions": 6,
+    "neighbors": 2
+  },
+  {
+    "word": "head",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 11
+  },
+  {
+    "word": "heal",
+    "moves": 6,
+    "solutions": 11,
+    "neighbors": 13
+  },
+  {
+    "word": "heap",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "hear",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 16
+  },
+  {
+    "word": "heat",
+    "moves": 6,
+    "solutions": 16,
+    "neighbors": 11
+  },
+  {
+    "word": "heed",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 13
+  },
+  {
+    "word": "heel",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "heir",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "held",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "hell",
+    "moves": 5,
+    "solutions": 6,
+    "neighbors": 16
+  },
+  {
+    "word": "helm",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "help",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 7
+  },
+  {
+    "word": "hemp",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "hems",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 7
+  },
+  {
+    "word": "hens",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 8
+  },
+  {
+    "word": "herb",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 6
+  },
+  {
+    "word": "herd",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "here",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "hero",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 5
+  },
+  {
+    "word": "hers",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 7
+  },
+  {
+    "word": "hewn",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 2
+  },
+  {
+    "word": "hews",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "hick",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "hide",
+    "moves": 7,
+    "solutions": 25,
+    "neighbors": 9
+  },
+  {
+    "word": "high",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 2
+  },
+  {
+    "word": "hike",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 8
+  },
+  {
+    "word": "hill",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "hilt",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "hind",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "hint",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 7
+  },
+  {
+    "word": "hips",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "hire",
+    "moves": 7,
+    "solutions": 57,
+    "neighbors": 11
+  },
+  {
+    "word": "hiss",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 4
+  },
+  {
+    "word": "hits",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 12
+  },
+  {
+    "word": "hive",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 9
+  },
+  {
+    "word": "hoax",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 1
+  },
+  {
+    "word": "hobo",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "hock",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "hoed",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "hoes",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "hogs",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "hold",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "hole",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 13
+  },
+  {
+    "word": "holy",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "home",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 9
+  },
+  {
+    "word": "hone",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "honk",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "hood",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "hoof",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "hook",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "hoop",
+    "moves": 1,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "hoot",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "hope",
+    "moves": 5,
+    "solutions": 7,
+    "neighbors": 12
+  },
+  {
+    "word": "hops",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "horn",
+    "moves": 5,
+    "solutions": 5,
+    "neighbors": 5
+  },
+  {
+    "word": "hose",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "host",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "hour",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "hove",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 12
+  },
+  {
+    "word": "howl",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "hows",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "hubs",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "hues",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "huff",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 6
+  },
+  {
+    "word": "huge",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 1
+  },
+  {
+    "word": "hugs",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 13
+  },
+  {
+    "word": "hulk",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 5
+  },
+  {
+    "word": "hull",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "hump",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "hums",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "hung",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "hunk",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "hunt",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "hurl",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "hurt",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 4
+  },
+  {
+    "word": "hush",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 8
+  },
+  {
+    "word": "husk",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "huts",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 13
+  },
+  {
+    "word": "hymn",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "iced",
+    "moves": 9,
+    "solutions": 13,
+    "neighbors": 2
+  },
+  {
+    "word": "ices",
+    "moves": 8,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "icon",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "idea",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "idle",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 2
+  },
+  {
+    "word": "idly",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "idol",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "ills",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "imps",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "inch",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "info",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "inks",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "inky",
+    "moves": 7,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "inns",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "into",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 3
+  },
+  {
+    "word": "ions",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "iota",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "ious",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "iris",
+    "moves": 8,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "irks",
+    "moves": 7,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "iron",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "isle",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "itch",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 2
+  },
+  {
+    "word": "item",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "jabs",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 11
+  },
+  {
+    "word": "jack",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 7
+  },
+  {
+    "word": "jade",
+    "moves": 7,
+    "solutions": 6,
+    "neighbors": 3
+  },
+  {
+    "word": "jail",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 10
+  },
+  {
+    "word": "jamb",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 2
+  },
+  {
+    "word": "jams",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "jars",
+    "moves": 6,
+    "solutions": 10,
+    "neighbors": 12
+  },
+  {
+    "word": "jaws",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "jays",
+    "moves": 6,
+    "solutions": 13,
+    "neighbors": 16
+  },
+  {
+    "word": "jazz",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "jeer",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "jell",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "jerk",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "jest",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "jets",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "jews",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 8
+  },
+  {
+    "word": "jibe",
+    "moves": 9,
+    "solutions": 18,
+    "neighbors": 1
+  },
+  {
+    "word": "jigs",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "jilt",
+    "moves": 6,
+    "solutions": 16,
+    "neighbors": 8
+  },
+  {
+    "word": "jinx",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "jobs",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "jogs",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "john",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "join",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "joke",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "jolt",
+    "moves": 5,
+    "solutions": 6,
+    "neighbors": 5
+  },
+  {
+    "word": "jots",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "joys",
+    "moves": 5,
+    "solutions": 5,
+    "neighbors": 6
+  },
+  {
+    "word": "judo",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "jugs",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "july",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 2
+  },
+  {
+    "word": "jump",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "june",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "junk",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "jury",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "just",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "jute",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 5
+  },
+  {
+    "word": "juts",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 11
+  },
+  {
+    "word": "keel",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "keen",
+    "moves": 7,
+    "solutions": 10,
+    "neighbors": 4
+  },
+  {
+    "word": "keep",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 7
+  },
+  {
+    "word": "kegs",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 4
+  },
+  {
+    "word": "kelp",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 3
+  },
+  {
+    "word": "kept",
+    "moves": 7,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "kerb",
+    "moves": 7,
+    "solutions": 2,
+    "neighbors": 2
+  },
+  {
+    "word": "keys",
+    "moves": 7,
+    "solutions": 4,
+    "neighbors": 1
+  },
+  {
+    "word": "kick",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "kids",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "kill",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 13
+  },
+  {
+    "word": "kiln",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "kilo",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "kilt",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "kind",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "king",
+    "moves": 7,
+    "solutions": 8,
+    "neighbors": 5
+  },
+  {
+    "word": "kink",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 9
+  },
+  {
+    "word": "kiss",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 4
+  },
+  {
+    "word": "kite",
+    "moves": 7,
+    "solutions": 17,
+    "neighbors": 6
+  },
+  {
+    "word": "kits",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 11
+  },
+  {
+    "word": "kiwi",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "knee",
+    "moves": 7,
+    "solutions": 2,
+    "neighbors": 1
+  },
+  {
+    "word": "knew",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 3
+  },
+  {
+    "word": "knit",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 2
+  },
+  {
+    "word": "knob",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "knot",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 4
+  },
+  {
+    "word": "know",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 4
+  },
+  {
+    "word": "labs",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 13
+  },
+  {
+    "word": "lace",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "lack",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 13
+  },
+  {
+    "word": "lacy",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "lads",
+    "moves": 6,
+    "solutions": 11,
+    "neighbors": 13
+  },
+  {
+    "word": "lady",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "lags",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 17
+  },
+  {
+    "word": "laid",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "lain",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "lair",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "lake",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 13
+  },
+  {
+    "word": "lamb",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 4
+  },
+  {
+    "word": "lame",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 14
+  },
+  {
+    "word": "lamp",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 7
+  },
+  {
+    "word": "land",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "lane",
+    "moves": 6,
+    "solutions": 10,
+    "neighbors": 13
+  },
+  {
+    "word": "laps",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 16
+  },
+  {
+    "word": "lard",
+    "moves": 6,
+    "solutions": 12,
+    "neighbors": 10
+  },
+  {
+    "word": "lark",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "lash",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "lass",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 13
+  },
+  {
+    "word": "last",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 13
+  },
+  {
+    "word": "late",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 12
+  },
+  {
+    "word": "laud",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 5
+  },
+  {
+    "word": "lava",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "lawn",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "laws",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 12
+  },
+  {
+    "word": "lays",
+    "moves": 6,
+    "solutions": 13,
+    "neighbors": 17
+  },
+  {
+    "word": "lazy",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "lead",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 11
+  },
+  {
+    "word": "leaf",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 6
+  },
+  {
+    "word": "leak",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "lean",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "leap",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "leek",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 7
+  },
+  {
+    "word": "leer",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "left",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "legs",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "lend",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 11
+  },
+  {
+    "word": "lens",
+    "moves": 6,
+    "solutions": 8,
+    "neighbors": 10
+  },
+  {
+    "word": "lent",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 14
+  },
+  {
+    "word": "less",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 7
+  },
+  {
+    "word": "lest",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 16
+  },
+  {
+    "word": "lets",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "levy",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "lewd",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 2
+  },
+  {
+    "word": "liar",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "lice",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "lick",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "lids",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 7
+  },
+  {
+    "word": "lied",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "lies",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "lieu",
+    "moves": 7,
+    "solutions": 3,
+    "neighbors": 2
+  },
+  {
+    "word": "life",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "lift",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "like",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 11
+  },
+  {
+    "word": "lilt",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 11
+  },
+  {
+    "word": "lily",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 3
+  },
+  {
+    "word": "limb",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "lime",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "limp",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "line",
+    "moves": 6,
+    "solutions": 11,
+    "neighbors": 17
+  },
+  {
+    "word": "link",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "lint",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 10
+  },
+  {
+    "word": "lion",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "lips",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "lisp",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 3
+  },
+  {
+    "word": "list",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "live",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 10
+  },
+  {
+    "word": "load",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "loaf",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 4
+  },
+  {
+    "word": "loam",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "loan",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "lobe",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 7
+  },
+  {
+    "word": "lobs",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "lock",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "loft",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "logo",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "logs",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 15
+  },
+  {
+    "word": "loin",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "loll",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "lone",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 16
+  },
+  {
+    "word": "long",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 4
+  },
+  {
+    "word": "look",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "loom",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "loon",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "loop",
+    "moves": 1,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "loot",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 13
+  },
+  {
+    "word": "lope",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 12
+  },
+  {
+    "word": "lops",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "lord",
+    "moves": 5,
+    "solutions": 7,
+    "neighbors": 7
+  },
+  {
+    "word": "lore",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 17
+  },
+  {
+    "word": "lose",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "loss",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "lost",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 13
+  },
+  {
+    "word": "lots",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "loud",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 3
+  },
+  {
+    "word": "love",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "lows",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 15
+  },
+  {
+    "word": "luck",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "lugs",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "lull",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 10
+  },
+  {
+    "word": "lump",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "lung",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "lure",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 7
+  },
+  {
+    "word": "lurk",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "lush",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "lust",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "lute",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "lyre",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 4
+  },
+  {
+    "word": "mace",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 12
+  },
+  {
+    "word": "made",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 12
+  },
+  {
+    "word": "mads",
+    "moves": 6,
+    "solutions": 10,
+    "neighbors": 12
+  },
+  {
+    "word": "maid",
+    "moves": 6,
+    "solutions": 8,
+    "neighbors": 7
+  },
+  {
+    "word": "mail",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 15
+  },
+  {
+    "word": "maim",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 3
+  },
+  {
+    "word": "main",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "make",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 16
+  },
+  {
+    "word": "male",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 18
+  },
+  {
+    "word": "mall",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "malt",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 9
+  },
+  {
+    "word": "mama",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "mane",
+    "moves": 6,
+    "solutions": 9,
+    "neighbors": 16
+  },
+  {
+    "word": "mans",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "many",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "maps",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 15
+  },
+  {
+    "word": "mare",
+    "moves": 6,
+    "solutions": 13,
+    "neighbors": 20
+  },
+  {
+    "word": "mark",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 9
+  },
+  {
+    "word": "mars",
+    "moves": 6,
+    "solutions": 14,
+    "neighbors": 17
+  },
+  {
+    "word": "mart",
+    "moves": 6,
+    "solutions": 13,
+    "neighbors": 12
+  },
+  {
+    "word": "mash",
+    "moves": 6,
+    "solutions": 12,
+    "neighbors": 15
+  },
+  {
+    "word": "mask",
+    "moves": 6,
+    "solutions": 9,
+    "neighbors": 8
+  },
+  {
+    "word": "mass",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 16
+  },
+  {
+    "word": "mast",
+    "moves": 5,
+    "solutions": 7,
+    "neighbors": 16
+  },
+  {
+    "word": "mate",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 20
+  },
+  {
+    "word": "math",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "mats",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 17
+  },
+  {
+    "word": "matt",
+    "moves": 6,
+    "solutions": 12,
+    "neighbors": 9
+  },
+  {
+    "word": "maul",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "mays",
+    "moves": 6,
+    "solutions": 12,
+    "neighbors": 17
+  },
+  {
+    "word": "maze",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 12
+  },
+  {
+    "word": "meal",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 9
+  },
+  {
+    "word": "mean",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 7
+  },
+  {
+    "word": "meat",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 12
+  },
+  {
+    "word": "meek",
+    "moves": 7,
+    "solutions": 17,
+    "neighbors": 6
+  },
+  {
+    "word": "meet",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 5
+  },
+  {
+    "word": "melt",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 8
+  },
+  {
+    "word": "memo",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "mend",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "menu",
+    "moves": 7,
+    "solutions": 2,
+    "neighbors": 1
+  },
+  {
+    "word": "meow",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "mere",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 6
+  },
+  {
+    "word": "mesh",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 3
+  },
+  {
+    "word": "mess",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 7
+  },
+  {
+    "word": "mete",
+    "moves": 7,
+    "solutions": 19,
+    "neighbors": 5
+  },
+  {
+    "word": "mews",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 8
+  },
+  {
+    "word": "mice",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 12
+  },
+  {
+    "word": "mien",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "mike",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 12
+  },
+  {
+    "word": "mild",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 7
+  },
+  {
+    "word": "mile",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 18
+  },
+  {
+    "word": "milk",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "mill",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 15
+  },
+  {
+    "word": "mime",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 9
+  },
+  {
+    "word": "mind",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 11
+  },
+  {
+    "word": "mine",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 18
+  },
+  {
+    "word": "mink",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "mint",
+    "moves": 6,
+    "solutions": 9,
+    "neighbors": 9
+  },
+  {
+    "word": "mire",
+    "moves": 6,
+    "solutions": 9,
+    "neighbors": 15
+  },
+  {
+    "word": "miss",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 7
+  },
+  {
+    "word": "mist",
+    "moves": 5,
+    "solutions": 6,
+    "neighbors": 9
+  },
+  {
+    "word": "mite",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 15
+  },
+  {
+    "word": "mitt",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 5
+  },
+  {
+    "word": "moan",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 5
+  },
+  {
+    "word": "moat",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 8
+  },
+  {
+    "word": "mobs",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 12
+  },
+  {
+    "word": "mock",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 8
+  },
+  {
+    "word": "mode",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "mold",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 11
+  },
+  {
+    "word": "mole",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "molt",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 11
+  },
+  {
+    "word": "moms",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 6
+  },
+  {
+    "word": "monk",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "mood",
+    "moves": 3,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "moon",
+    "moves": 3,
+    "solutions": 2,
+    "neighbors": 11
+  },
+  {
+    "word": "moor",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "moos",
+    "moves": 3,
+    "solutions": 2,
+    "neighbors": 13
+  },
+  {
+    "word": "moot",
+    "moves": 3,
+    "solutions": 3,
+    "neighbors": 14
+  },
+  {
+    "word": "mope",
+    "moves": 5,
+    "solutions": 6,
+    "neighbors": 11
+  },
+  {
+    "word": "mops",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 13
+  },
+  {
+    "word": "more",
+    "moves": 5,
+    "solutions": 5,
+    "neighbors": 17
+  },
+  {
+    "word": "morn",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "moss",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 13
+  },
+  {
+    "word": "most",
+    "moves": 4,
+    "solutions": 5,
+    "neighbors": 12
+  },
+  {
+    "word": "moth",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "move",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "mows",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 15
+  },
+  {
+    "word": "much",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 4
+  },
+  {
+    "word": "muck",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 9
+  },
+  {
+    "word": "muff",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 6
+  },
+  {
+    "word": "mugs",
+    "moves": 6,
+    "solutions": 18,
+    "neighbors": 8
+  },
+  {
+    "word": "mule",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 7
+  },
+  {
+    "word": "mull",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "mums",
+    "moves": 5,
+    "solutions": 6,
+    "neighbors": 8
+  },
+  {
+    "word": "muse",
+    "moves": 6,
+    "solutions": 10,
+    "neighbors": 8
+  },
+  {
+    "word": "mush",
+    "moves": 6,
+    "solutions": 9,
+    "neighbors": 13
+  },
+  {
+    "word": "musk",
+    "moves": 6,
+    "solutions": 13,
+    "neighbors": 9
+  },
+  {
+    "word": "muss",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 12
+  },
+  {
+    "word": "must",
+    "moves": 5,
+    "solutions": 6,
+    "neighbors": 15
+  },
+  {
+    "word": "mute",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 9
+  },
+  {
+    "word": "mutt",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 6
+  },
+  {
+    "word": "myth",
+    "moves": 7,
+    "solutions": 2,
+    "neighbors": 2
+  },
+  {
+    "word": "nabs",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "nags",
+    "moves": 6,
+    "solutions": 8,
+    "neighbors": 11
+  },
+  {
+    "word": "nail",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 10
+  },
+  {
+    "word": "name",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 8
+  },
+  {
+    "word": "nape",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 6
+  },
+  {
+    "word": "naps",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 13
+  },
+  {
+    "word": "navy",
+    "moves": 8,
+    "solutions": 4,
+    "neighbors": 1
+  },
+  {
+    "word": "nays",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 14
+  },
+  {
+    "word": "nazi",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "near",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "neat",
+    "moves": 6,
+    "solutions": 14,
+    "neighbors": 11
+  },
+  {
+    "word": "neck",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 3
+  },
+  {
+    "word": "need",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "neon",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "nest",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "nets",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 11
+  },
+  {
+    "word": "news",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 8
+  },
+  {
+    "word": "newt",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "next",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "nice",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 7
+  },
+  {
+    "word": "nick",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "nigh",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 2
+  },
+  {
+    "word": "nine",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 10
+  },
+  {
+    "word": "nips",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 10
+  },
+  {
+    "word": "nits",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 11
+  },
+  {
+    "word": "node",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "nods",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "none",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 12
+  },
+  {
+    "word": "nook",
+    "moves": 3,
+    "solutions": 3,
+    "neighbors": 7
+  },
+  {
+    "word": "noon",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "norm",
+    "moves": 6,
+    "solutions": 11,
+    "neighbors": 2
+  },
+  {
+    "word": "nose",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 9
+  },
+  {
+    "word": "nosy",
+    "moves": 6,
+    "solutions": 10,
+    "neighbors": 4
+  },
+  {
+    "word": "note",
+    "moves": 6,
+    "solutions": 14,
+    "neighbors": 7
+  },
+  {
+    "word": "noun",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "nova",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "nude",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 3
+  },
+  {
+    "word": "null",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "numb",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "nuns",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 6
+  },
+  {
+    "word": "nuts",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "oafs",
+    "moves": 7,
+    "solutions": 6,
+    "neighbors": 3
+  },
+  {
+    "word": "oaks",
+    "moves": 7,
+    "solutions": 8,
+    "neighbors": 3
+  },
+  {
+    "word": "oars",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 11
+  },
+  {
+    "word": "oath",
+    "moves": 7,
+    "solutions": 9,
+    "neighbors": 4
+  },
+  {
+    "word": "obey",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "oboe",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "odds",
+    "moves": 8,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "odes",
+    "moves": 9,
+    "solutions": 4,
+    "neighbors": 4
+  },
+  {
+    "word": "odor",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "offs",
+    "moves": 8,
+    "solutions": 6,
+    "neighbors": 1
+  },
+  {
+    "word": "ogle",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "ogre",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "ohms",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "oils",
+    "moves": 7,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "oily",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "okay",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "oked",
+    "moves": 9,
+    "solutions": 5,
+    "neighbors": 2
+  },
+  {
+    "word": "okra",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "omen",
+    "moves": 10,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "omit",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "once",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "ones",
+    "moves": 9,
+    "solutions": 5,
+    "neighbors": 4
+  },
+  {
+    "word": "only",
+    "moves": 7,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "onto",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 2
+  },
+  {
+    "word": "onus",
+    "moves": 8,
+    "solutions": 2,
+    "neighbors": 4
+  },
+  {
+    "word": "ooze",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 1
+  },
+  {
+    "word": "opal",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 2
+  },
+  {
+    "word": "open",
+    "moves": 10,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "opts",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "opus",
+    "moves": 7,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "oral",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 2
+  },
+  {
+    "word": "ores",
+    "moves": 8,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "orgy",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "ouch",
+    "moves": 7,
+    "solutions": 8,
+    "neighbors": 2
+  },
+  {
+    "word": "ours",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "oust",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "outs",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "oval",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 2
+  },
+  {
+    "word": "oven",
+    "moves": 9,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "over",
+    "moves": 9,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "ovum",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "owed",
+    "moves": 9,
+    "solutions": 12,
+    "neighbors": 3
+  },
+  {
+    "word": "owes",
+    "moves": 8,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "owls",
+    "moves": 8,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "owns",
+    "moves": 9,
+    "solutions": 3,
+    "neighbors": 2
+  },
+  {
+    "word": "oxen",
+    "moves": 10,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "pace",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 12
+  },
+  {
+    "word": "pack",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 13
+  },
+  {
+    "word": "pact",
+    "moves": 6,
+    "solutions": 10,
+    "neighbors": 7
+  },
+  {
+    "word": "pads",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 13
+  },
+  {
+    "word": "page",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 10
+  },
+  {
+    "word": "paid",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "pail",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "pain",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "pair",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "pale",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 17
+  },
+  {
+    "word": "pall",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 15
+  },
+  {
+    "word": "palm",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "pals",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "pane",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 16
+  },
+  {
+    "word": "pang",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 10
+  },
+  {
+    "word": "pans",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 19
+  },
+  {
+    "word": "pant",
+    "moves": 6,
+    "solutions": 11,
+    "neighbors": 11
+  },
+  {
+    "word": "papa",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "pare",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 19
+  },
+  {
+    "word": "park",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "pars",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 18
+  },
+  {
+    "word": "part",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "pass",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "past",
+    "moves": 5,
+    "solutions": 5,
+    "neighbors": 13
+  },
+  {
+    "word": "pate",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 15
+  },
+  {
+    "word": "path",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 6
+  },
+  {
+    "word": "pats",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 21
+  },
+  {
+    "word": "pave",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 12
+  },
+  {
+    "word": "pawn",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 7
+  },
+  {
+    "word": "paws",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 13
+  },
+  {
+    "word": "pays",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 18
+  },
+  {
+    "word": "peak",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 11
+  },
+  {
+    "word": "peal",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "pear",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 16
+  },
+  {
+    "word": "peas",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 11
+  },
+  {
+    "word": "peat",
+    "moves": 6,
+    "solutions": 18,
+    "neighbors": 14
+  },
+  {
+    "word": "peck",
+    "moves": 6,
+    "solutions": 9,
+    "neighbors": 8
+  },
+  {
+    "word": "peek",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 11
+  },
+  {
+    "word": "peel",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "peep",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 7
+  },
+  {
+    "word": "peer",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "pegs",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 9
+  },
+  {
+    "word": "pelt",
+    "moves": 6,
+    "solutions": 11,
+    "neighbors": 7
+  },
+  {
+    "word": "pens",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 13
+  },
+  {
+    "word": "peon",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "peps",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "perk",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "pert",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "pest",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 14
+  },
+  {
+    "word": "pets",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 17
+  },
+  {
+    "word": "pews",
+    "moves": 6,
+    "solutions": 9,
+    "neighbors": 12
+  },
+  {
+    "word": "pick",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 11
+  },
+  {
+    "word": "pier",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "pies",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "pigs",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 10
+  },
+  {
+    "word": "pike",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 10
+  },
+  {
+    "word": "pile",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 12
+  },
+  {
+    "word": "pill",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "pine",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 15
+  },
+  {
+    "word": "pink",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 11
+  },
+  {
+    "word": "pins",
+    "moves": 6,
+    "solutions": 8,
+    "neighbors": 16
+  },
+  {
+    "word": "pint",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 9
+  },
+  {
+    "word": "pipe",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 6
+  },
+  {
+    "word": "pits",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 16
+  },
+  {
+    "word": "pity",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "plan",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "play",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "plea",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 1
+  },
+  {
+    "word": "plod",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "plop",
+    "moves": 1,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "plot",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "plow",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "ploy",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "plug",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "plum",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 4
+  },
+  {
+    "word": "plus",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "pods",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "poem",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "poet",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "poke",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "poky",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "pole",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 13
+  },
+  {
+    "word": "poll",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "polo",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "pomp",
+    "moves": 1,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "pond",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 3
+  },
+  {
+    "word": "pony",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 5
+  },
+  {
+    "word": "pool",
+    "moves": 1,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "poop",
+    "moves": 0,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "poor",
+    "moves": 1,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "pope",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "pops",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "pore",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 18
+  },
+  {
+    "word": "pork",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "port",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "pose",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "post",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 12
+  },
+  {
+    "word": "posy",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 7
+  },
+  {
+    "word": "pots",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "pour",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "pout",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "pram",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "pray",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 7
+  },
+  {
+    "word": "prey",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 2
+  },
+  {
+    "word": "prim",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "prod",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "prom",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "prop",
+    "moves": 1,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "pros",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "prow",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "puck",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "puff",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 6
+  },
+  {
+    "word": "puke",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "pull",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 13
+  },
+  {
+    "word": "pulp",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "puma",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "pump",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "punk",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "puns",
+    "moves": 6,
+    "solutions": 11,
+    "neighbors": 14
+  },
+  {
+    "word": "punt",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "puny",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "pups",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 6
+  },
+  {
+    "word": "pure",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "purr",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 2
+  },
+  {
+    "word": "push",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "puss",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 7
+  },
+  {
+    "word": "puts",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 15
+  },
+  {
+    "word": "putt",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 4
+  },
+  {
+    "word": "pyre",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "quay",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "quip",
+    "moves": 7,
+    "solutions": 3,
+    "neighbors": 2
+  },
+  {
+    "word": "quit",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 3
+  },
+  {
+    "word": "quiz",
+    "moves": 7,
+    "solutions": 3,
+    "neighbors": 2
+  },
+  {
+    "word": "race",
+    "moves": 6,
+    "solutions": 11,
+    "neighbors": 14
+  },
+  {
+    "word": "rack",
+    "moves": 5,
+    "solutions": 8,
+    "neighbors": 11
+  },
+  {
+    "word": "racy",
+    "moves": 6,
+    "solutions": 9,
+    "neighbors": 3
+  },
+  {
+    "word": "raft",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 5
+  },
+  {
+    "word": "rage",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 12
+  },
+  {
+    "word": "rags",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 15
+  },
+  {
+    "word": "raid",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 6
+  },
+  {
+    "word": "rail",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 12
+  },
+  {
+    "word": "rain",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "rake",
+    "moves": 7,
+    "solutions": 68,
+    "neighbors": 15
+  },
+  {
+    "word": "ramp",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "rams",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "rang",
+    "moves": 7,
+    "solutions": 22,
+    "neighbors": 11
+  },
+  {
+    "word": "rank",
+    "moves": 6,
+    "solutions": 8,
+    "neighbors": 9
+  },
+  {
+    "word": "rant",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "rape",
+    "moves": 6,
+    "solutions": 8,
+    "neighbors": 15
+  },
+  {
+    "word": "raps",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 15
+  },
+  {
+    "word": "rapt",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 4
+  },
+  {
+    "word": "rare",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 14
+  },
+  {
+    "word": "rash",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "rasp",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "rate",
+    "moves": 6,
+    "solutions": 8,
+    "neighbors": 17
+  },
+  {
+    "word": "rats",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 15
+  },
+  {
+    "word": "rave",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 13
+  },
+  {
+    "word": "rays",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 15
+  },
+  {
+    "word": "raze",
+    "moves": 7,
+    "solutions": 52,
+    "neighbors": 12
+  },
+  {
+    "word": "read",
+    "moves": 6,
+    "solutions": 17,
+    "neighbors": 11
+  },
+  {
+    "word": "real",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 12
+  },
+  {
+    "word": "ream",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "reap",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 6
+  },
+  {
+    "word": "rear",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 16
+  },
+  {
+    "word": "redo",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "reds",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "reed",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "reef",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "reek",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "reel",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "rein",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "rely",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "rend",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 10
+  },
+  {
+    "word": "rent",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 13
+  },
+  {
+    "word": "rest",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "revs",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "ribs",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "rice",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 13
+  },
+  {
+    "word": "rich",
+    "moves": 7,
+    "solutions": 5,
+    "neighbors": 1
+  },
+  {
+    "word": "ride",
+    "moves": 6,
+    "solutions": 9,
+    "neighbors": 15
+  },
+  {
+    "word": "rids",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "rife",
+    "moves": 6,
+    "solutions": 8,
+    "neighbors": 9
+  },
+  {
+    "word": "rift",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 6
+  },
+  {
+    "word": "rigs",
+    "moves": 6,
+    "solutions": 11,
+    "neighbors": 12
+  },
+  {
+    "word": "rile",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 14
+  },
+  {
+    "word": "rims",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 8
+  },
+  {
+    "word": "rind",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "ring",
+    "moves": 7,
+    "solutions": 9,
+    "neighbors": 7
+  },
+  {
+    "word": "rink",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 10
+  },
+  {
+    "word": "riot",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 2
+  },
+  {
+    "word": "ripe",
+    "moves": 6,
+    "solutions": 11,
+    "neighbors": 11
+  },
+  {
+    "word": "rips",
+    "moves": 6,
+    "solutions": 11,
+    "neighbors": 14
+  },
+  {
+    "word": "rise",
+    "moves": 6,
+    "solutions": 9,
+    "neighbors": 11
+  },
+  {
+    "word": "risk",
+    "moves": 7,
+    "solutions": 11,
+    "neighbors": 3
+  },
+  {
+    "word": "rite",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 13
+  },
+  {
+    "word": "road",
+    "moves": 5,
+    "solutions": 6,
+    "neighbors": 6
+  },
+  {
+    "word": "roam",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 6
+  },
+  {
+    "word": "roar",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "robe",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 7
+  },
+  {
+    "word": "robs",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "rock",
+    "moves": 4,
+    "solutions": 6,
+    "neighbors": 8
+  },
+  {
+    "word": "rode",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 12
+  },
+  {
+    "word": "rods",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "roes",
+    "moves": 5,
+    "solutions": 8,
+    "neighbors": 11
+  },
+  {
+    "word": "role",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 13
+  },
+  {
+    "word": "roll",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "romp",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "roof",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "rook",
+    "moves": 3,
+    "solutions": 3,
+    "neighbors": 10
+  },
+  {
+    "word": "room",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "root",
+    "moves": 3,
+    "solutions": 2,
+    "neighbors": 12
+  },
+  {
+    "word": "rope",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 13
+  },
+  {
+    "word": "rose",
+    "moves": 5,
+    "solutions": 5,
+    "neighbors": 13
+  },
+  {
+    "word": "rosy",
+    "moves": 6,
+    "solutions": 12,
+    "neighbors": 4
+  },
+  {
+    "word": "rote",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 12
+  },
+  {
+    "word": "rots",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 13
+  },
+  {
+    "word": "rout",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 4
+  },
+  {
+    "word": "rows",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 13
+  },
+  {
+    "word": "rubs",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 13
+  },
+  {
+    "word": "ruby",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 1
+  },
+  {
+    "word": "rude",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 6
+  },
+  {
+    "word": "rued",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 4
+  },
+  {
+    "word": "rues",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 11
+  },
+  {
+    "word": "ruff",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 6
+  },
+  {
+    "word": "rugs",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 13
+  },
+  {
+    "word": "ruin",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "rule",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 5
+  },
+  {
+    "word": "rump",
+    "moves": 3,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "rums",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 13
+  },
+  {
+    "word": "rung",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 9
+  },
+  {
+    "word": "runs",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 12
+  },
+  {
+    "word": "runt",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 8
+  },
+  {
+    "word": "ruse",
+    "moves": 6,
+    "solutions": 8,
+    "neighbors": 8
+  },
+  {
+    "word": "rush",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 9
+  },
+  {
+    "word": "rust",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "ruts",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 14
+  },
+  {
+    "word": "sack",
+    "moves": 5,
+    "solutions": 5,
+    "neighbors": 12
+  },
+  {
+    "word": "sacs",
+    "moves": 6,
+    "solutions": 9,
+    "neighbors": 6
+  },
+  {
+    "word": "safe",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 7
+  },
+  {
+    "word": "saga",
+    "moves": 7,
+    "solutions": 15,
+    "neighbors": 2
+  },
+  {
+    "word": "sage",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 12
+  },
+  {
+    "word": "sags",
+    "moves": 6,
+    "solutions": 10,
+    "neighbors": 14
+  },
+  {
+    "word": "said",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "sail",
+    "moves": 5,
+    "solutions": 7,
+    "neighbors": 12
+  },
+  {
+    "word": "sake",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 15
+  },
+  {
+    "word": "saki",
+    "moves": 7,
+    "solutions": 3,
+    "neighbors": 2
+  },
+  {
+    "word": "sale",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 14
+  },
+  {
+    "word": "salt",
+    "moves": 6,
+    "solutions": 10,
+    "neighbors": 4
+  },
+  {
+    "word": "same",
+    "moves": 6,
+    "solutions": 9,
+    "neighbors": 14
+  },
+  {
+    "word": "sand",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "sane",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 16
+  },
+  {
+    "word": "sang",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 13
+  },
+  {
+    "word": "sank",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 11
+  },
+  {
+    "word": "saps",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 14
+  },
+  {
+    "word": "sari",
+    "moves": 8,
+    "solutions": 3,
+    "neighbors": 1
+  },
+  {
+    "word": "sash",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 9
+  },
+  {
+    "word": "save",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 12
+  },
+  {
+    "word": "sawn",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "saws",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 11
+  },
+  {
+    "word": "says",
+    "moves": 6,
+    "solutions": 8,
+    "neighbors": 15
+  },
+  {
+    "word": "scab",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 5
+  },
+  {
+    "word": "scan",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 4
+  },
+  {
+    "word": "scar",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 6
+  },
+  {
+    "word": "scum",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 2
+  },
+  {
+    "word": "seal",
+    "moves": 6,
+    "solutions": 10,
+    "neighbors": 12
+  },
+  {
+    "word": "seam",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "sear",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 19
+  },
+  {
+    "word": "seas",
+    "moves": 6,
+    "solutions": 8,
+    "neighbors": 10
+  },
+  {
+    "word": "seat",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 16
+  },
+  {
+    "word": "sect",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 2
+  },
+  {
+    "word": "seed",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 18
+  },
+  {
+    "word": "seek",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 10
+  },
+  {
+    "word": "seem",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 9
+  },
+  {
+    "word": "seen",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 8
+  },
+  {
+    "word": "seep",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "sees",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 14
+  },
+  {
+    "word": "self",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 1
+  },
+  {
+    "word": "sell",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 11
+  },
+  {
+    "word": "send",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 9
+  },
+  {
+    "word": "sent",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 12
+  },
+  {
+    "word": "sets",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 12
+  },
+  {
+    "word": "sewn",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "sews",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "sexy",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "sham",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "shed",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 5
+  },
+  {
+    "word": "shin",
+    "moves": 5,
+    "solutions": 5,
+    "neighbors": 6
+  },
+  {
+    "word": "ship",
+    "moves": 4,
+    "solutions": 4,
+    "neighbors": 7
+  },
+  {
+    "word": "shod",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 6
+  },
+  {
+    "word": "shoe",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 5
+  },
+  {
+    "word": "shoo",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 5
+  },
+  {
+    "word": "shop",
+    "moves": 3,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "shot",
+    "moves": 4,
+    "solutions": 6,
+    "neighbors": 10
+  },
+  {
+    "word": "show",
+    "moves": 4,
+    "solutions": 5,
+    "neighbors": 9
+  },
+  {
+    "word": "shun",
+    "moves": 6,
+    "solutions": 14,
+    "neighbors": 4
+  },
+  {
+    "word": "shut",
+    "moves": 5,
+    "solutions": 8,
+    "neighbors": 4
+  },
+  {
+    "word": "sick",
+    "moves": 5,
+    "solutions": 5,
+    "neighbors": 13
+  },
+  {
+    "word": "sics",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 6
+  },
+  {
+    "word": "side",
+    "moves": 7,
+    "solutions": 26,
+    "neighbors": 10
+  },
+  {
+    "word": "sift",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 5
+  },
+  {
+    "word": "sigh",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 3
+  },
+  {
+    "word": "sign",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "silk",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "sill",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "silo",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 5
+  },
+  {
+    "word": "silt",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "sine",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 16
+  },
+  {
+    "word": "sing",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "sink",
+    "moves": 6,
+    "solutions": 10,
+    "neighbors": 13
+  },
+  {
+    "word": "sins",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 16
+  },
+  {
+    "word": "sips",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "sire",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 13
+  },
+  {
+    "word": "sirs",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 7
+  },
+  {
+    "word": "site",
+    "moves": 7,
+    "solutions": 27,
+    "neighbors": 10
+  },
+  {
+    "word": "sits",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 14
+  },
+  {
+    "word": "size",
+    "moves": 7,
+    "solutions": 8,
+    "neighbors": 4
+  },
+  {
+    "word": "skew",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 3
+  },
+  {
+    "word": "skid",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 7
+  },
+  {
+    "word": "skim",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 7
+  },
+  {
+    "word": "skin",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "skip",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "skis",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "skit",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 8
+  },
+  {
+    "word": "slab",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 10
+  },
+  {
+    "word": "slag",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 10
+  },
+  {
+    "word": "slam",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "slap",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "slat",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 12
+  },
+  {
+    "word": "slay",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 10
+  },
+  {
+    "word": "sled",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 8
+  },
+  {
+    "word": "slew",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 7
+  },
+  {
+    "word": "slid",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "slim",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "slip",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "slit",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 10
+  },
+  {
+    "word": "slob",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "slog",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "slop",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "slot",
+    "moves": 3,
+    "solutions": 2,
+    "neighbors": 14
+  },
+  {
+    "word": "slow",
+    "moves": 3,
+    "solutions": 2,
+    "neighbors": 12
+  },
+  {
+    "word": "slug",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "slum",
+    "moves": 5,
+    "solutions": 6,
+    "neighbors": 9
+  },
+  {
+    "word": "slur",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "slut",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "smog",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "smug",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 4
+  },
+  {
+    "word": "smut",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 3
+  },
+  {
+    "word": "snag",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 4
+  },
+  {
+    "word": "snap",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "snip",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "snob",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "snot",
+    "moves": 4,
+    "solutions": 4,
+    "neighbors": 7
+  },
+  {
+    "word": "snow",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 6
+  },
+  {
+    "word": "snub",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "snug",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "soak",
+    "moves": 5,
+    "solutions": 7,
+    "neighbors": 3
+  },
+  {
+    "word": "soap",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 6
+  },
+  {
+    "word": "soar",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "sobs",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "sock",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 10
+  },
+  {
+    "word": "soda",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "sods",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "sofa",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 2
+  },
+  {
+    "word": "soft",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 5
+  },
+  {
+    "word": "soil",
+    "moves": 4,
+    "solutions": 4,
+    "neighbors": 6
+  },
+  {
+    "word": "sold",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "sole",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "solo",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "some",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "song",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "sons",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "soon",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "soot",
+    "moves": 3,
+    "solutions": 2,
+    "neighbors": 14
+  },
+  {
+    "word": "sops",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "sore",
+    "moves": 5,
+    "solutions": 5,
+    "neighbors": 14
+  },
+  {
+    "word": "sort",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 5
+  },
+  {
+    "word": "soul",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 4
+  },
+  {
+    "word": "soup",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "sour",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "sown",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "sows",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 16
+  },
+  {
+    "word": "span",
+    "moves": 6,
+    "solutions": 14,
+    "neighbors": 8
+  },
+  {
+    "word": "spar",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 9
+  },
+  {
+    "word": "spas",
+    "moves": 6,
+    "solutions": 12,
+    "neighbors": 5
+  },
+  {
+    "word": "spat",
+    "moves": 5,
+    "solutions": 7,
+    "neighbors": 9
+  },
+  {
+    "word": "spay",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "sped",
+    "moves": 6,
+    "solutions": 9,
+    "neighbors": 7
+  },
+  {
+    "word": "spew",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 4
+  },
+  {
+    "word": "spin",
+    "moves": 6,
+    "solutions": 14,
+    "neighbors": 5
+  },
+  {
+    "word": "spit",
+    "moves": 5,
+    "solutions": 7,
+    "neighbors": 6
+  },
+  {
+    "word": "spot",
+    "moves": 4,
+    "solutions": 4,
+    "neighbors": 6
+  },
+  {
+    "word": "spry",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 1
+  },
+  {
+    "word": "spud",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "spun",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "spur",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "stab",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 7
+  },
+  {
+    "word": "stag",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 5
+  },
+  {
+    "word": "star",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "stay",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 6
+  },
+  {
+    "word": "stem",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "step",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "stew",
+    "moves": 5,
+    "solutions": 6,
+    "neighbors": 6
+  },
+  {
+    "word": "stir",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 1
+  },
+  {
+    "word": "stop",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "stow",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 5
+  },
+  {
+    "word": "stub",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 4
+  },
+  {
+    "word": "stud",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "stun",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "subs",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 10
+  },
+  {
+    "word": "such",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 3
+  },
+  {
+    "word": "suck",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 12
+  },
+  {
+    "word": "suds",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "sued",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 7
+  },
+  {
+    "word": "sues",
+    "moves": 6,
+    "solutions": 16,
+    "neighbors": 10
+  },
+  {
+    "word": "suit",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 4
+  },
+  {
+    "word": "sulk",
+    "moves": 6,
+    "solutions": 9,
+    "neighbors": 5
+  },
+  {
+    "word": "sums",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 9
+  },
+  {
+    "word": "sung",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 10
+  },
+  {
+    "word": "sunk",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "suns",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 13
+  },
+  {
+    "word": "sure",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 6
+  },
+  {
+    "word": "surf",
+    "moves": 7,
+    "solutions": 7,
+    "neighbors": 2
+  },
+  {
+    "word": "swab",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 8
+  },
+  {
+    "word": "swam",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 10
+  },
+  {
+    "word": "swan",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "swap",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "swat",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 8
+  },
+  {
+    "word": "sway",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 9
+  },
+  {
+    "word": "swig",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "swim",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "swum",
+    "moves": 6,
+    "solutions": 9,
+    "neighbors": 4
+  },
+  {
+    "word": "tabs",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "tack",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 14
+  },
+  {
+    "word": "taco",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 2
+  },
+  {
+    "word": "tact",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 6
+  },
+  {
+    "word": "tags",
+    "moves": 6,
+    "solutions": 11,
+    "neighbors": 13
+  },
+  {
+    "word": "tail",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "take",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 11
+  },
+  {
+    "word": "talc",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 3
+  },
+  {
+    "word": "tale",
+    "moves": 5,
+    "solutions": 5,
+    "neighbors": 13
+  },
+  {
+    "word": "talk",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 9
+  },
+  {
+    "word": "tall",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 15
+  },
+  {
+    "word": "tame",
+    "moves": 6,
+    "solutions": 10,
+    "neighbors": 12
+  },
+  {
+    "word": "tang",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "tank",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 10
+  },
+  {
+    "word": "tans",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 15
+  },
+  {
+    "word": "tape",
+    "moves": 6,
+    "solutions": 9,
+    "neighbors": 9
+  },
+  {
+    "word": "taps",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 15
+  },
+  {
+    "word": "tars",
+    "moves": 6,
+    "solutions": 11,
+    "neighbors": 13
+  },
+  {
+    "word": "tart",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "task",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 7
+  },
+  {
+    "word": "taut",
+    "moves": 7,
+    "solutions": 4,
+    "neighbors": 2
+  },
+  {
+    "word": "taxi",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "teak",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 8
+  },
+  {
+    "word": "team",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 9
+  },
+  {
+    "word": "tear",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 16
+  },
+  {
+    "word": "teas",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "teat",
+    "moves": 6,
+    "solutions": 15,
+    "neighbors": 15
+  },
+  {
+    "word": "teed",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 13
+  },
+  {
+    "word": "teem",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 7
+  },
+  {
+    "word": "tees",
+    "moves": 6,
+    "solutions": 14,
+    "neighbors": 11
+  },
+  {
+    "word": "tell",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 11
+  },
+  {
+    "word": "tend",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 9
+  },
+  {
+    "word": "tens",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "tent",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 15
+  },
+  {
+    "word": "term",
+    "moves": 7,
+    "solutions": 8,
+    "neighbors": 3
+  },
+  {
+    "word": "test",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "text",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "than",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 4
+  },
+  {
+    "word": "that",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "thaw",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "them",
+    "moves": 7,
+    "solutions": 4,
+    "neighbors": 3
+  },
+  {
+    "word": "then",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "they",
+    "moves": 7,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "thin",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "this",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "thud",
+    "moves": 8,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "thug",
+    "moves": 8,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "thus",
+    "moves": 7,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "tick",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "tide",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 10
+  },
+  {
+    "word": "tidy",
+    "moves": 7,
+    "solutions": 6,
+    "neighbors": 2
+  },
+  {
+    "word": "tied",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "tier",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "ties",
+    "moves": 6,
+    "solutions": 14,
+    "neighbors": 11
+  },
+  {
+    "word": "tiff",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "tile",
+    "moves": 5,
+    "solutions": 5,
+    "neighbors": 12
+  },
+  {
+    "word": "till",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 15
+  },
+  {
+    "word": "tilt",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 10
+  },
+  {
+    "word": "time",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 8
+  },
+  {
+    "word": "tins",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 15
+  },
+  {
+    "word": "tint",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 8
+  },
+  {
+    "word": "tiny",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "tips",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 13
+  },
+  {
+    "word": "tire",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 11
+  },
+  {
+    "word": "tits",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "toad",
+    "moves": 5,
+    "solutions": 7,
+    "neighbors": 5
+  },
+  {
+    "word": "toed",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "toes",
+    "moves": 5,
+    "solutions": 9,
+    "neighbors": 15
+  },
+  {
+    "word": "toga",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "toil",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "told",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 10
+  },
+  {
+    "word": "toll",
+    "moves": 3,
+    "solutions": 2,
+    "neighbors": 10
+  },
+  {
+    "word": "tomb",
+    "moves": 7,
+    "solutions": 21,
+    "neighbors": 4
+  },
+  {
+    "word": "tome",
+    "moves": 6,
+    "solutions": 17,
+    "neighbors": 10
+  },
+  {
+    "word": "tone",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 13
+  },
+  {
+    "word": "tons",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 15
+  },
+  {
+    "word": "took",
+    "moves": 3,
+    "solutions": 4,
+    "neighbors": 8
+  },
+  {
+    "word": "tool",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "toot",
+    "moves": 3,
+    "solutions": 3,
+    "neighbors": 10
+  },
+  {
+    "word": "tops",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "tore",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 15
+  },
+  {
+    "word": "torn",
+    "moves": 5,
+    "solutions": 5,
+    "neighbors": 8
+  },
+  {
+    "word": "toss",
+    "moves": 5,
+    "solutions": 9,
+    "neighbors": 9
+  },
+  {
+    "word": "tote",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "tots",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "tour",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "town",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 5
+  },
+  {
+    "word": "tows",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 16
+  },
+  {
+    "word": "toys",
+    "moves": 5,
+    "solutions": 6,
+    "neighbors": 8
+  },
+  {
+    "word": "trap",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 4
+  },
+  {
+    "word": "tray",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 5
+  },
+  {
+    "word": "tree",
+    "moves": 7,
+    "solutions": 2,
+    "neighbors": 4
+  },
+  {
+    "word": "trek",
+    "moves": 8,
+    "solutions": 2,
+    "neighbors": 1
+  },
+  {
+    "word": "trim",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "trio",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 2
+  },
+  {
+    "word": "trip",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "trod",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "trot",
+    "moves": 4,
+    "solutions": 4,
+    "neighbors": 2
+  },
+  {
+    "word": "true",
+    "moves": 8,
+    "solutions": 2,
+    "neighbors": 1
+  },
+  {
+    "word": "tsar",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "tuba",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "tube",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 4
+  },
+  {
+    "word": "tubs",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "tuck",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "tuft",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "tugs",
+    "moves": 6,
+    "solutions": 11,
+    "neighbors": 8
+  },
+  {
+    "word": "tuna",
+    "moves": 7,
+    "solutions": 4,
+    "neighbors": 2
+  },
+  {
+    "word": "tune",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 5
+  },
+  {
+    "word": "turf",
+    "moves": 7,
+    "solutions": 8,
+    "neighbors": 2
+  },
+  {
+    "word": "turn",
+    "moves": 6,
+    "solutions": 8,
+    "neighbors": 3
+  },
+  {
+    "word": "tusk",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 5
+  },
+  {
+    "word": "twee",
+    "moves": 8,
+    "solutions": 2,
+    "neighbors": 1
+  },
+  {
+    "word": "twig",
+    "moves": 7,
+    "solutions": 2,
+    "neighbors": 2
+  },
+  {
+    "word": "twin",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "twos",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "type",
+    "moves": 7,
+    "solutions": 12,
+    "neighbors": 2
+  },
+  {
+    "word": "tyre",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 5
+  },
+  {
+    "word": "ufos",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "ugly",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "undo",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "unit",
+    "moves": 7,
+    "solutions": 4,
+    "neighbors": 1
+  },
+  {
+    "word": "unto",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 3
+  },
+  {
+    "word": "upon",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "urge",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "urns",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "used",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 2
+  },
+  {
+    "word": "user",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 2
+  },
+  {
+    "word": "uses",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 2
+  },
+  {
+    "word": "vain",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "vane",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 9
+  },
+  {
+    "word": "vans",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 8
+  },
+  {
+    "word": "vary",
+    "moves": 7,
+    "solutions": 2,
+    "neighbors": 2
+  },
+  {
+    "word": "vase",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 6
+  },
+  {
+    "word": "vast",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "vats",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "vcrs",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "veal",
+    "moves": 7,
+    "solutions": 42,
+    "neighbors": 9
+  },
+  {
+    "word": "veer",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "veil",
+    "moves": 7,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "vein",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "vent",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 10
+  },
+  {
+    "word": "verb",
+    "moves": 7,
+    "solutions": 2,
+    "neighbors": 3
+  },
+  {
+    "word": "very",
+    "moves": 8,
+    "solutions": 4,
+    "neighbors": 2
+  },
+  {
+    "word": "vest",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "veto",
+    "moves": 7,
+    "solutions": 4,
+    "neighbors": 1
+  },
+  {
+    "word": "vets",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 10
+  },
+  {
+    "word": "vial",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 2
+  },
+  {
+    "word": "vice",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 8
+  },
+  {
+    "word": "vied",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "vies",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "view",
+    "moves": 7,
+    "solutions": 2,
+    "neighbors": 2
+  },
+  {
+    "word": "vile",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "vine",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 12
+  },
+  {
+    "word": "vips",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 9
+  },
+  {
+    "word": "visa",
+    "moves": 7,
+    "solutions": 2,
+    "neighbors": 1
+  },
+  {
+    "word": "vise",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 7
+  },
+  {
+    "word": "void",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "volt",
+    "moves": 5,
+    "solutions": 6,
+    "neighbors": 4
+  },
+  {
+    "word": "vote",
+    "moves": 6,
+    "solutions": 7,
+    "neighbors": 4
+  },
+  {
+    "word": "vows",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "wade",
+    "moves": 7,
+    "solutions": 19,
+    "neighbors": 9
+  },
+  {
+    "word": "wads",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 10
+  },
+  {
+    "word": "waft",
+    "moves": 7,
+    "solutions": 16,
+    "neighbors": 6
+  },
+  {
+    "word": "wage",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "wags",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 13
+  },
+  {
+    "word": "waif",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 2
+  },
+  {
+    "word": "wail",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 13
+  },
+  {
+    "word": "wait",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 9
+  },
+  {
+    "word": "wake",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 13
+  },
+  {
+    "word": "walk",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "wall",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "wand",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "wane",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 13
+  },
+  {
+    "word": "want",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 11
+  },
+  {
+    "word": "ward",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 13
+  },
+  {
+    "word": "warm",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 9
+  },
+  {
+    "word": "warn",
+    "moves": 6,
+    "solutions": 12,
+    "neighbors": 11
+  },
+  {
+    "word": "warp",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 9
+  },
+  {
+    "word": "wars",
+    "moves": 6,
+    "solutions": 8,
+    "neighbors": 17
+  },
+  {
+    "word": "wart",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 16
+  },
+  {
+    "word": "wary",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 10
+  },
+  {
+    "word": "wash",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 11
+  },
+  {
+    "word": "wasp",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "watt",
+    "moves": 7,
+    "solutions": 24,
+    "neighbors": 5
+  },
+  {
+    "word": "wave",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 12
+  },
+  {
+    "word": "wavy",
+    "moves": 7,
+    "solutions": 4,
+    "neighbors": 4
+  },
+  {
+    "word": "waxy",
+    "moves": 7,
+    "solutions": 2,
+    "neighbors": 2
+  },
+  {
+    "word": "ways",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 15
+  },
+  {
+    "word": "weak",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 7
+  },
+  {
+    "word": "wean",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "wear",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 14
+  },
+  {
+    "word": "webs",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 3
+  },
+  {
+    "word": "weds",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 7
+  },
+  {
+    "word": "weed",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 13
+  },
+  {
+    "word": "week",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 10
+  },
+  {
+    "word": "weep",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 8
+  },
+  {
+    "word": "weer",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "wees",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 13
+  },
+  {
+    "word": "weld",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "well",
+    "moves": 5,
+    "solutions": 4,
+    "neighbors": 12
+  },
+  {
+    "word": "welt",
+    "moves": 6,
+    "solutions": 13,
+    "neighbors": 10
+  },
+  {
+    "word": "went",
+    "moves": 6,
+    "solutions": 6,
+    "neighbors": 14
+  },
+  {
+    "word": "wept",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "were",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 4
+  },
+  {
+    "word": "west",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 12
+  },
+  {
+    "word": "wets",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 12
+  },
+  {
+    "word": "what",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "when",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "whet",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 3
+  },
+  {
+    "word": "whew",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "whim",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "whip",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "whir",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "whiz",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "whoa",
+    "moves": 7,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "whom",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 2
+  },
+  {
+    "word": "whys",
+    "moves": 7,
+    "solutions": 4,
+    "neighbors": 1
+  },
+  {
+    "word": "wick",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "wide",
+    "moves": 7,
+    "solutions": 29,
+    "neighbors": 12
+  },
+  {
+    "word": "wife",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "wigs",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 9
+  },
+  {
+    "word": "wild",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "will",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 15
+  },
+  {
+    "word": "wilt",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "wily",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "wind",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 12
+  },
+  {
+    "word": "wine",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 18
+  },
+  {
+    "word": "wing",
+    "moves": 7,
+    "solutions": 14,
+    "neighbors": 7
+  },
+  {
+    "word": "wink",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 11
+  },
+  {
+    "word": "wins",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 13
+  },
+  {
+    "word": "wipe",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 7
+  },
+  {
+    "word": "wire",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 14
+  },
+  {
+    "word": "wiry",
+    "moves": 6,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "wise",
+    "moves": 7,
+    "solutions": 25,
+    "neighbors": 9
+  },
+  {
+    "word": "wish",
+    "moves": 7,
+    "solutions": 8,
+    "neighbors": 6
+  },
+  {
+    "word": "wisp",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 4
+  },
+  {
+    "word": "with",
+    "moves": 7,
+    "solutions": 2,
+    "neighbors": 2
+  },
+  {
+    "word": "wits",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 12
+  },
+  {
+    "word": "woes",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 10
+  },
+  {
+    "word": "woke",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 8
+  },
+  {
+    "word": "woks",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 4
+  },
+  {
+    "word": "wolf",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 2
+  },
+  {
+    "word": "womb",
+    "moves": 7,
+    "solutions": 4,
+    "neighbors": 3
+  },
+  {
+    "word": "wont",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 3
+  },
+  {
+    "word": "wood",
+    "moves": 3,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "woof",
+    "moves": 3,
+    "solutions": 2,
+    "neighbors": 7
+  },
+  {
+    "word": "wool",
+    "moves": 2,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "woos",
+    "moves": 3,
+    "solutions": 2,
+    "neighbors": 10
+  },
+  {
+    "word": "word",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "wore",
+    "moves": 5,
+    "solutions": 5,
+    "neighbors": 17
+  },
+  {
+    "word": "work",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 7
+  },
+  {
+    "word": "worm",
+    "moves": 5,
+    "solutions": 3,
+    "neighbors": 7
+  },
+  {
+    "word": "worn",
+    "moves": 5,
+    "solutions": 8,
+    "neighbors": 10
+  },
+  {
+    "word": "wove",
+    "moves": 6,
+    "solutions": 20,
+    "neighbors": 8
+  },
+  {
+    "word": "wows",
+    "moves": 4,
+    "solutions": 3,
+    "neighbors": 12
+  },
+  {
+    "word": "wrap",
+    "moves": 4,
+    "solutions": 2,
+    "neighbors": 2
+  },
+  {
+    "word": "wren",
+    "moves": 7,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "writ",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 2
+  },
+  {
+    "word": "xmas",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "yaks",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 3
+  },
+  {
+    "word": "yams",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "yank",
+    "moves": 7,
+    "solutions": 27,
+    "neighbors": 5
+  },
+  {
+    "word": "yaps",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 10
+  },
+  {
+    "word": "yard",
+    "moves": 6,
+    "solutions": 3,
+    "neighbors": 6
+  },
+  {
+    "word": "yarn",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 6
+  },
+  {
+    "word": "yawn",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 6
+  },
+  {
+    "word": "year",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 11
+  },
+  {
+    "word": "yell",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 9
+  },
+  {
+    "word": "yelp",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 3
+  },
+  {
+    "word": "yens",
+    "moves": 6,
+    "solutions": 2,
+    "neighbors": 6
+  },
+  {
+    "word": "yeti",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "yews",
+    "moves": 6,
+    "solutions": 5,
+    "neighbors": 7
+  },
+  {
+    "word": "ymca",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "yoga",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "yoke",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 4
+  },
+  {
+    "word": "yolk",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 1
+  },
+  {
+    "word": "your",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 6
+  },
+  {
+    "word": "yowl",
+    "moves": 4,
+    "solutions": 1,
+    "neighbors": 3
+  },
+  {
+    "word": "ywca",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 1
+  },
+  {
+    "word": "zany",
+    "moves": 7,
+    "solutions": 1,
+    "neighbors": 1
+  },
+  {
+    "word": "zeal",
+    "moves": 7,
+    "solutions": 40,
+    "neighbors": 7
+  },
+  {
+    "word": "zero",
+    "moves": 7,
+    "solutions": 2,
+    "neighbors": 1
+  },
+  {
+    "word": "zest",
+    "moves": 5,
+    "solutions": 1,
+    "neighbors": 9
+  },
+  {
+    "word": "zeta",
+    "moves": 8,
+    "solutions": 7,
+    "neighbors": 1
+  },
+  {
+    "word": "zinc",
+    "moves": null,
+    "solutions": 0,
+    "neighbors": 0
+  },
+  {
+    "word": "zips",
+    "moves": 6,
+    "solutions": 4,
+    "neighbors": 8
+  },
+  {
+    "word": "zone",
+    "moves": 5,
+    "solutions": 2,
+    "neighbors": 8
+  },
+  {
+    "word": "zoom",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 5
+  },
+  {
+    "word": "zoos",
+    "moves": 3,
+    "solutions": 1,
+    "neighbors": 5
+  }
+]

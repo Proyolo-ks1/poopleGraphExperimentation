@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poople Path Statistics</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 32px;
+        background: #161b22;
+        color: #e6edf3;
+        font-family: Arial, sans-serif;
+      }
+
+      h1 {
+        margin-top: 0;
+      }
+
+      .controls {
+        display: flex;
+        gap: 12px;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+      }
+
+      select,
+      input {
+        padding: 10px 12px;
+        background: #21262d;
+        color: #e6edf3;
+        border: 1px solid #484f58;
+        border-radius: 6px;
+        font-size: 14px;
+      }
+
+      select {
+        min-width: 260px;
+      }
+
+      input {
+        flex: 1;
+        min-width: 180px;
+      }
+
+      #stats {
+        margin-bottom: 12px;
+        color: #8b949e;
+        font-size: 14px;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        background: #1c2128;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      th,
+      td {
+        padding: 11px 16px;
+        text-align: left;
+        border-bottom: 1px solid #30363d;
+      }
+
+      th {
+        background: #21262d;
+        position: sticky;
+        top: 0;
+      }
+
+      th button {
+        padding: 0;
+        border: none;
+        background: none;
+        color: #e6edf3;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      th button:hover {
+        color: #58a6ff;
+      }
+
+      tbody tr:hover {
+        background: #292f38;
+      }
+
+      td.number {
+        font-variant-numeric: tabular-nums;
+      }
+
+      .unreachable {
+        color: #8b949e;
+      }
+
+      #error {
+        color: #f85149;
+        margin-top: 16px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Poople Path Statistics</h1>
+
+    <div class="controls">
+      <select id="dictionary">
+        <option value="dwyl-words_alpha">DWYL</option>
+        <option value="poople-from-JS" selected>Poople</option>
+        <option value="words-EsdbSize35">ESDB 35</option>
+        <option value="words-EsdbSize50">ESDB 50</option>
+        <option value="words-EsdbSize60">ESDB 60</option>
+        <option value="words-EsdbSize70">ESDB 70</option>
+        <option value="words-EsdbSize80">ESDB 80</option>
+        <option value="words-EsdbSize85">ESDB 85</option>
+      </select>
+
+      <input type="search" id="search" placeholder="Search words..." />
+    </div>
+
+    <div id="stats">Loading...</div>
+
+    <table>
+      <thead>
+        <tr>
+          <th><button data-sort="word">Word ↕</button></th>
+          <th><button data-sort="moves">Moves ↕</button></th>
+          <th><button data-sort="solutions">Solutions ↕</button></th>
+          <th><button data-sort="neighbors">Neighbors ↕</button></th>
+        </tr>
+      </thead>
+
+      <tbody id="table-body"></tbody>
+    </table>
+
+    <div id="error"></div>
+
+    <script>
+      const dictionarySelect = document.getElementById("dictionary");
+      const searchInput = document.getElementById("search");
+      const tableBody = document.getElementById("table-body");
+      const statsElement = document.getElementById("stats");
+      const errorElement = document.getElementById("error");
+
+      let words = [];
+      let sortColumn = "word";
+      let sortAscending = true;
+
+      async function loadDictionary() {
+        const dictionary = dictionarySelect.value;
+        const filename = `pooplePathStats-${dictionary}.json`;
+
+        errorElement.textContent = "";
+        statsElement.textContent = "Loading...";
+        tableBody.innerHTML = "";
+
+        try {
+          const response = await fetch(`../Assets/poople-path-statistics/${filename}`);
+
+          if (!response.ok) {
+            throw new Error(`HTTP ${response.status}`);
+          }
+
+          words = await response.json();
+
+          sortColumn = "word";
+          sortAscending = true;
+
+          renderTable();
+        } catch (error) {
+          words = [];
+          statsElement.textContent = "";
+          errorElement.textContent = `Could not load ${filename}: ${error.message}`;
+        }
+      }
+
+      function renderTable() {
+        const search = searchInput.value.trim().toLowerCase();
+
+        const filtered = words
+          .filter((entry) => entry.word.includes(search))
+          .sort((a, b) => {
+            const aValue = a[sortColumn];
+            const bValue = b[sortColumn];
+
+            // Keep unreachable words at the bottom
+            if (sortColumn === "moves") {
+              if (aValue === null) return bValue === null ? 0 : 1;
+              if (bValue === null) return -1;
+            }
+
+            const comparison = typeof aValue === "string" ? aValue.localeCompare(bValue) : aValue - bValue;
+
+            return comparison * (sortAscending ? 1 : -1);
+          });
+
+        tableBody.innerHTML = "";
+
+        const fragment = document.createDocumentFragment();
+
+        for (const entry of filtered) {
+          const row = document.createElement("tr");
+
+          if (entry.moves === null) {
+            row.classList.add("unreachable");
+          }
+
+          const values = [entry.word.toUpperCase(), entry.moves ?? "Unreachable", entry.solutions, entry.neighbors];
+
+          values.forEach((value, index) => {
+            const cell = document.createElement("td");
+            cell.textContent = value;
+
+            if (index > 0) {
+              cell.classList.add("number");
+            }
+
+            row.appendChild(cell);
+          });
+
+          fragment.appendChild(row);
+        }
+
+        tableBody.appendChild(fragment);
+
+        const reachable = words.filter((w) => w.moves !== null).length;
+        const unreachable = words.length - reachable;
+
+        statsElement.textContent = `${filtered.length.toLocaleString()} / ${words.length.toLocaleString()} words · ` + `${reachable.toLocaleString()} reachable · ` + `${unreachable.toLocaleString()} unreachable`;
+
+        document.querySelectorAll("[data-sort]").forEach((button) => {
+          const active = button.dataset.sort === sortColumn;
+
+          button.textContent = button.dataset.sort.charAt(0).toUpperCase() + button.dataset.sort.slice(1) + (active ? (sortAscending ? " ↑" : " ↓") : " ↕");
+        });
+      }
+
+      dictionarySelect.addEventListener("change", loadDictionary);
+      searchInput.addEventListener("input", renderTable);
+
+      document.querySelectorAll("[data-sort]").forEach((button) => {
+        button.addEventListener("click", () => {
+          const column = button.dataset.sort;
+
+          if (sortColumn === column) {
+            sortAscending = !sortAscending;
+          } else {
+            sortColumn = column;
+            sortAscending = true;
+          }
+
+          renderTable();
+        });
+      });
+
+      loadDictionary();
+    </script>
+  </body>
+</html>

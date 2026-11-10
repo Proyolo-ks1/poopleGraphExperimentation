@@ -18,6 +18,9 @@ const pathIndexLabel = document.getElementById("path-index-label");
 const pathSection = document.getElementById("path-section");
 const wordPathElement = document.getElementById("word-path");
 
+const pathHeading = document.getElementById("path-heading");
+const neighborsHeading = document.getElementById("neighbors-heading");
+
 const neighborsSection = document.getElementById("neighbors-section");
 const wordNeighborsElement = document.getElementById("word-neighbors");
 
@@ -169,6 +172,7 @@ function displayNeighbors(word) {
     wordNeighborsElement.replaceChildren();
 
     const neighbors = getNeighbors(word);
+    neighborsHeading.textContent = `Neighboring words - ${neighbors.length}`;
 
     for (let position = 0; position < 4; position++) {
         const group = document.createElement("div");
@@ -299,11 +303,6 @@ function updateSearch() {
     
     selectSolution(solutionIndex);
 
-    resultElement.textContent =
-        `${word.toUpperCase()} → POOP: ${distance} ` +
-        `${distance === 1 ? "move" : "moves"}. ` +
-        `${neighbors.length} neighboring words.`;
-
     const newCanvasTop = graphCanvas.getBoundingClientRect().top;
 
     window.scrollBy({
@@ -329,6 +328,11 @@ function selectSolution(index) {
     pathIndexInput.max = currentPaths.length - 1;
     graphSolutionInput.max = currentPaths.length - 1;
 
+    const moves = path.length - 1;
+    pathHeading.textContent =
+        `Shortest path from ${path[0].toUpperCase()} to POOP: ${moves} ` +
+        `${moves === 1 ? "move" : "moves"}`;
+
     // Synchronize both sliders
     pathIndexInput.value = index;
     graphSolutionInput.value = index;
@@ -343,6 +347,7 @@ function selectSolution(index) {
     // Show selectors only when multiple solutions exist
     pathSelector.hidden = currentPaths.length <= 1;
     graphSolutionSelector.hidden = currentPaths.length <= 1;
+    
 
     // Update displayed path and graph
     displayPath(path);
@@ -360,7 +365,7 @@ async function loadDictionary() {
     const url =
         `./Assets/4-letter-word-lists/fourLetterWords-${dictionary}.json`;
 
-    resultElement.textContent = "Loading dictionary...";
+    resultElement.textContent = "";
     pathSection.hidden = true;
     neighborsSection.hidden = true;
 
