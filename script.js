@@ -11,11 +11,19 @@ const totalWordsElement = document.getElementById("total-words");
 const reachableWordsElement = document.getElementById("reachable-words");
 const reachabilityElement = document.getElementById("reachability-percent");
 
+const pathSelector = document.getElementById("path-selector");
+const pathIndexInput = document.getElementById("path-index");
+const pathIndexLabel = document.getElementById("path-index-label");
+
 const pathSection = document.getElementById("path-section");
 const wordPathElement = document.getElementById("word-path");
 
 const neighborsSection = document.getElementById("neighbors-section");
 const wordNeighborsElement = document.getElementById("word-neighbors");
+
+const graphSolutionSelector = document.getElementById("graph-solution-selector");
+const graphSolutionInput = document.getElementById("graph-solution-index");
+const graphSolutionLabel = document.getElementById("graph-solution-label");
 
 const graphCanvas = document.getElementById("graph-canvas");
 
@@ -32,7 +40,9 @@ function updateUrlParameter(key, value) {
 
 let words = new Set();
 let distances = new Map();
-let previous = new Map();
+let predecessors = new Map();
+
+let currentPaths = [];
 
 // Find valid words differing by exactly one letter
 function getNeighbors(word) {
@@ -59,7 +69,7 @@ function getNeighbors(word) {
 // BFS starting at POOP
 function calculateDistances(startWord) {
     distances = new Map([[startWord, 0]]);
-    previous = new Map();
+    predecessors = new Map();
 
     const queue = [startWord];
 
@@ -68,28 +78,37 @@ function calculateDistances(startWord) {
         const currentDistance = distances.get(currentWord);
 
         for (const neighbor of getNeighbors(currentWord)) {
-            if (distances.has(neighbor)) continue;
+            const newDistance = currentDistance + 1;
 
-            distances.set(neighbor, currentDistance + 1);
-            previous.set(neighbor, currentWord);
+            if (!distances.has(neighbor)) {
+                distances.set(neighbor, newDistance);
+                predecessors.set(neighbor, [currentWord]);
 
-            queue.push(neighbor);
+                queue.push(neighbor);
+            } else if (distances.get(neighbor) === newDistance) {
+                predecessors.get(neighbor).push(currentWord);
+            }
         }
     }
 }
 
-// Reconstruct the shortest path from a word to POOP
-function getShortestPath(word) {
+// Reconstruct all shortest paths from a word to POOP
+function getShortestPaths(word) {
     if (!distances.has(word)) return [];
 
-    const path = [word];
+    if (word === START_WORD) return [[START_WORD]];
 
-    while (word !== START_WORD) {
-        word = previous.get(word);
-        path.push(word);
+    const paths = [];
+
+    for (const predecessor of predecessors.get(word) ?? []) {
+        const predecessorPaths = getShortestPaths(predecessor);
+
+        for (const path of predecessorPaths) {
+            paths.push([word, ...path]);
+        }
     }
 
-    return path;
+    return paths;
 }
 
 // Display a word, highlighting the letter changed
@@ -235,6 +254,11 @@ function updateSearch() {
     pathSection.hidden = true;
     neighborsSection.hidden = true;
 
+    currentPaths = [];
+
+    pathSelector.hidden = true;
+    graphSolutionSelector.hidden = true;
+
     if (!word) {
         resultElement.textContent = "Enter a four-letter word.";
         updateGraph([], getNeighbors, selectWord);
@@ -262,15 +286,23 @@ function updateSearch() {
     }
 
     const distance = distances.get(word);
-    const path = getShortestPath(word);
+    currentPaths = getShortestPaths(word);
+    let allPaths = [];
+
+    const requestedSolution = Number(
+        new URLSearchParams(window.location.search).get("solution") ?? 1
+    );
+
+    const solutionIndex = Number.isInteger(requestedSolution)
+        ? requestedSolution - 1
+        : 0;
+    
+    selectSolution(solutionIndex);
 
     resultElement.textContent =
         `${word.toUpperCase()} → POOP: ${distance} ` +
         `${distance === 1 ? "move" : "moves"}. ` +
         `${neighbors.length} neighboring words.`;
-
-    displayPath(path);
-    updateGraph(path, getNeighbors, selectWord);
 
     const newCanvasTop = graphCanvas.getBoundingClientRect().top;
 
@@ -278,6 +310,46 @@ function updateSearch() {
         top: newCanvasTop - previousCanvasTop,
         behavior: "instant"
     });
+}
+
+pathIndexInput.addEventListener("input", () => {
+    selectSolution(Number(pathIndexInput.value));
+});
+
+graphSolutionInput.addEventListener("input", () => {
+    selectSolution(Number(graphSolutionInput.value));
+});
+
+function selectSolution(index) {
+    if (currentPaths.length === 0) return;
+
+    index = Math.max(0, Math.min(Math.floor(index), currentPaths.length - 1));
+
+    const path = currentPaths[index];
+    pathIndexInput.max = currentPaths.length - 1;
+    graphSolutionInput.max = currentPaths.length - 1;
+
+    // Synchronize both sliders
+    pathIndexInput.value = index;
+    graphSolutionInput.value = index;
+
+    // Update labels
+    pathIndexLabel.textContent =
+        `Solution ${index + 1} of ${currentPaths.length}`;
+
+    graphSolutionLabel.textContent =
+        `${index + 1} / ${currentPaths.length}`;
+
+    // Show selectors only when multiple solutions exist
+    pathSelector.hidden = currentPaths.length <= 1;
+    graphSolutionSelector.hidden = currentPaths.length <= 1;
+
+    // Update displayed path and graph
+    displayPath(path);
+    updateGraph(path, getNeighbors, selectWord, currentPaths);
+
+    // Save selection in URL
+    updateUrlParameter("solution", index + 1);
 }
 
 // Load selected dictionary
@@ -292,6 +364,11 @@ async function loadDictionary() {
     pathSection.hidden = true;
     neighborsSection.hidden = true;
 
+    currentPaths = [];
+
+    pathSelector.hidden = true;
+    graphSolutionSelector.hidden = true;
+
     try {
         const response = await fetch(url);
 
@@ -305,7 +382,7 @@ async function loadDictionary() {
             calculateDistances(START_WORD);
         } else {
             distances = new Map();
-            previous = new Map();
+            predecessors = new Map();
         }
 
         totalWordsElement.textContent = words.size.toLocaleString();
@@ -320,7 +397,7 @@ async function loadDictionary() {
     } catch (error) {
         words = new Set();
         distances = new Map();
-        previous = new Map();
+        predecessors = new Map();
 
         totalWordsElement.textContent = "—";
         reachableWordsElement.textContent = "—";

@@ -245,6 +245,11 @@ select:focus {
     .stats-grid {
         grid-template-columns: 1fr;
     }
+    
+    .graph-controls {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
 }
 
 /* POOP */
@@ -285,19 +290,36 @@ select:focus {
 }
 
 .graph-controls {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
     margin: 20px 0;
 }
 
-.graph-controls label {
-    display: flex;
-    justify-content: space-between;
+.graph-control {
+    display: grid;
+    grid-template-columns: auto minmax(60px, 1fr) auto;
+    align-items: center;
+    gap: 12px;
 }
 
-#graph-depth {
+.graph-control label {
+    margin: 0;
+    white-space: nowrap;
+}
+
+.graph-control input {
     width: 100%;
     padding: 0;
     accent-color: #38bda3;
     cursor: pointer;
+}
+
+.graph-control output {
+    min-width: 24px;
+    text-align: right;
+    color: #a5aab3;
+    font-size: 14px;
 }
 
 .graph-container {
@@ -380,4 +402,15 @@ select:focus {
 
 #graph-copy-link:hover {
     background: rgba(128, 128, 128, 0.12);
+}
+
+.path-selector {
+    margin-top: 20px;
+}
+
+#path-index {
+    width: 100%;
+    padding: 0;
+    accent-color: #38bda3;
+    cursor: pointer;
 }

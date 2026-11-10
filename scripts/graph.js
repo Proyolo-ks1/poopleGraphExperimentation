@@ -31,6 +31,7 @@ let graphPath = new Set();
 let pendingFocus = null;
 
 let currentPath = [];
+let allPaths = [];
 let getNeighborsFunction = null;
 let onSelectWord = null;
 
@@ -170,8 +171,9 @@ function resetView() {
 }
 
 // Public function called from script.js
-export function updateGraph(path, getNeighbors, selectWord) {
+export function updateGraph(path, getNeighbors, selectWord, paths = [path]) {
     currentPath = path;
+    allPaths = paths;
     getNeighborsFunction = getNeighbors;
     onSelectWord = selectWord;
 
@@ -185,7 +187,7 @@ function handleResize() {
 
 // DrawGraph Wrapper
 function renderGraph() {
-    drawGraph(
+        drawGraph(
         ctx,
         offsetX,
         offsetY,
@@ -194,6 +196,7 @@ function renderGraph() {
         graphNodes,
         graphEdges,
         currentPath,
+        allPaths,
         NODE_RADIUS
     );
 }

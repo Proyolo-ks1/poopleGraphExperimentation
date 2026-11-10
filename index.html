@@ -57,7 +57,16 @@
 
         <div id="path-section" hidden>
           <h3>Shortest path to POOP</h3>
+
           <div id="word-path" class="word-path"></div>
+
+          <div id="path-selector" class="path-selector" hidden>
+            <label for="path-index">
+              <span id="path-index-label">Solution 1 of 1</span>
+            </label>
+
+            <input id="path-index" type="range" min="0" max="0" value="0" step="1" />
+          </div>
         </div>
 
         <div id="neighbors-section" hidden>
@@ -80,12 +89,17 @@
         </div>
 
         <div class="graph-controls">
-          <label for="graph-depth">
-            Neighbor generations:
+          <div class="graph-control">
+            <label for="graph-depth">Neighbor generations</label>
+            <input id="graph-depth" type="range" min="0" max="10" value="1" step="1" />
             <output id="graph-depth-value">1</output>
-          </label>
+          </div>
 
-          <input id="graph-depth" type="range" min="0" max="10" value="1" step="1" />
+          <div id="graph-solution-selector" class="graph-control" hidden>
+            <label for="graph-solution-index">Solution</label>
+            <input id="graph-solution-index" type="range" min="0" max="0" value="0" step="1" />
+            <output id="graph-solution-label">1 / 1</output>
+          </div>
         </div>
 
         <div class="graph-container">

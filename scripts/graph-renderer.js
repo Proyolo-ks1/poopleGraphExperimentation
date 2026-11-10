@@ -75,6 +75,7 @@ export function drawGraph(
     graphNodes,
     graphEdges,
     currentPath,
+    allPaths,
     NODE_RADIUS
 ) {
     const graphPath = new Set(currentPath);
@@ -84,6 +85,20 @@ export function drawGraph(
         pathEdges.add(
             [currentPath[i], currentPath[i + 1]].sort().join(":")
         );
+    }
+
+    const alternativePathEdges = new Set();
+
+    for (const path of allPaths) {
+        if (path === currentPath) continue;
+
+        for (let i = 0; i < path.length - 1; i++) {
+            const edgeKey = [path[i], path[i + 1]].sort().join(":");
+
+            if (!pathEdges.has(edgeKey)) {
+                alternativePathEdges.add(edgeKey);
+            }
+        }
     }
 
     const { width, height } = getCanvasSize();
@@ -137,10 +152,10 @@ export function drawGraph(
     for (const edge of graphEdges) {
         const from = nodeMap.get(edge.from);
         const to = nodeMap.get(edge.to);
-
-        const isPathEdge = pathEdges.has(
-            [edge.from, edge.to].sort().join(":")
-        );
+        
+        const edgeKey = [edge.from, edge.to].sort().join(":");
+        const isPathEdge = pathEdges.has(edgeKey);
+        const isAlternativePathEdge = alternativePathEdges.has(edgeKey);
 
         const isParentEdge =
             from.parent === to.word ||
@@ -158,10 +173,15 @@ export function drawGraph(
         ctx.lineTo(to.x, to.y);
 
         if (isPathEdge) {
-            // Shortest path backbone
+            // Selected shortest path
             ctx.strokeStyle = "#c58b57";
             ctx.lineWidth = 3;
             ctx.globalAlpha = 1;
+        } else if (isAlternativePathEdge) {
+            // Alternative shortest paths
+            ctx.strokeStyle = "#a47752";
+            ctx.lineWidth = 2;
+            ctx.globalAlpha = 0.9;
         } else if (sharedGroup) {
             ctx.strokeStyle = "#83929e";
             ctx.lineWidth = 1.4;
